@@ -1,0 +1,22 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "dtype": "FP16",
+  "backend": "efficient",
+  "chunk": 512,
+  "caps": [
+    2,
+    8
+  ],
+  "rate": 0.24,
+  "requests_per_trial": 20,
+  "planned_repeats": 2,
+  "created": "2026-11-03T06:36:03.322345+09:00",
+  "design": "same arrival trace within each cap crossover block; finite overload, not steady state",
+  "source_sha256": "ccf540611a8350fe6034d811cf1e0e913709b80d39236735376025b9bd80995c",
+  "synthetic_slo": {
+    "short_scheduled_ttft_ms": 2000,
+    "long_scheduled_ttft_ms": 4000,
+    "max_gap_ms": 350
+  }
+}

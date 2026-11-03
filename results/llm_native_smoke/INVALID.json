@@ -1,0 +1,7 @@
+{
+  "valid_performance_result": false,
+  "reason": "Initial eager FP16 smoke emitted token ID 0 repeatedly. Subsequent same-backend cache validation found nonfinite logits (NaN). Exclude the entire initial smoke from performance conclusions.",
+  "rejected_run": "smoke_long_2048",
+  "replacement_backend": "SDPA math only, FP16 weights and KV, FP32 attention intermediates",
+  "validation_error": "chunk_tokens=256; finite=false; max_abs_logit_difference=NaN; allclose=false; kv_length=2048"
+}

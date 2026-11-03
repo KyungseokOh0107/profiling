@@ -1,0 +1,18 @@
+{
+    "deadline":  "2026-11-03T07:00:00+09:00",
+    "checked_at":  "2026-11-03T07:00:18.4497550+09:00",
+    "experiment_processes_remaining":  [
+
+                                       ],
+    "stage2_jobs_completed":  7,
+    "stage3_jobs_completed":  2,
+    "all_jobs_returncode_zero":  true,
+    "main_trials":  209,
+    "http_requests":  956,
+    "http_errors":  0,
+    "static_sequences":  105,
+    "output_tokens":  271616,
+    "raw_validation_passed":  true,
+    "figures_png":  6,
+    "figures_svg":  6
+}

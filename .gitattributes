@@ -1,0 +1,6 @@
+# Matplotlib emits trailing spaces inside SVG path data; preserve generated output.
+*.svg -whitespace linguist-generated=true
+# Keep raw evidence in Git while collapsing generated data in code-review diffs.
+results/**/*.json linguist-generated=true
+results/**/*.csv linguist-generated=true
+results/**/implementation_snapshot.py linguist-generated=true

@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "dtype": "FP16",
+  "backend": "efficient",
+  "max_seqs": 8,
+  "repeats": 5,
+  "order_seed": 731,
+  "created": "2026-11-03T06:24:57.444492+09:00",
+  "source_sha256": "2f583a7089148ff934974b61182ca40d718dd2f207b218ef8322963868f652d3",
+  "design": "same persistent GPU server; randomized client placement x chunk",
+  "clock": "Windows QueryPerformanceCounter via perf_counter_ns, system-wide",
+  "scheduler": "sequential independent caches, no GPU batching, not vLLM"
+}

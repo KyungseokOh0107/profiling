@@ -1,0 +1,21 @@
+.venv-llm/
+__pycache__/
+results/**/*.pt.trace.json
+
+# Local execution state; measured JSON/CSV, manifests and figures are committed.
+OVERNIGHT_HANDOFF.md
+results/**/*.log
+results/**/*.tmp
+results/**/*_stdout.txt
+results/**/*_stderr.txt
+results/**/*_analysis.txt
+results/**/ready.json
+
+# Model weights, credentials and local environments must stay outside Git.
+.env
+.env.*
+!.env.example
+.venv/
+*.safetensors
+*.pt
+*.pth

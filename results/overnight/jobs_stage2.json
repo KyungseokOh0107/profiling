@@ -1,0 +1,9 @@
+[
+  {"name": "http_load_pilot_extended", "args": ["benchmark_llm_http.py", "--backend", "efficient", "--phase", "pilot", "--count", "20", "--repeats", "1", "--chunks", "512", "--rates", "0.24", "--output", "results/overnight/http_load_pilot_extended"]},
+  {"name": "freeze_load_rates", "args": ["freeze_llm_load.py"]},
+  {"name": "http_mixed_load", "args": ["benchmark_llm_http.py", "--backend", "efficient", "--phase", "load", "--count", "50", "--repeats", "2", "--rates", "0.08", "0.24", "--output", "results/overnight/http_mixed_load"]},
+  {"name": "backend_probe_v2", "args": ["probe_llm_backends.py", "--output", "results/overnight/backend_probe_v2"]},
+  {"name": "backend_crossover", "args": ["benchmark_llm_crossover.py", "--repeats", "8", "--output", "results/overnight/backend_crossover"]},
+  {"name": "static_batch_fp16", "args": ["benchmark_llm_batch.py", "--repeats", "5", "--output", "results/overnight/static_batch_fp16"]},
+  {"name": "chat_pairs", "args": ["benchmark_llm_crossover.py", "--chat", "--repeats", "5", "--output", "results/overnight/chat_pairs"]}
+]

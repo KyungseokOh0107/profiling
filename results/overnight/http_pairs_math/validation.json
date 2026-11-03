@@ -1,0 +1,127 @@
+[
+  {
+    "run_id": "pair_r0_alone_2048",
+    "successful": 1,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_long_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_long_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_long_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_short_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_alone_2048",
+    "successful": 1,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_long_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_long_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_long_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_short_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_alone_2048",
+    "successful": 1,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_long_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_long_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_long_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_short_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_alone_2048",
+    "successful": 1,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_long_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_long_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_long_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_short_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_alone_2048",
+    "successful": 1,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_long_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_long_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_long_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_short_2048",
+    "successful": 2,
+    "errors": 0
+  }
+]

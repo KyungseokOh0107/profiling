@@ -1,0 +1,62 @@
+[
+  {
+    "run_id": "load_r0_rate0.08_chunk2048",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r0_rate0.08_chunk256",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r0_rate0.08_chunk512",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r0_rate0.24_chunk2048",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r0_rate0.24_chunk256",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r0_rate0.24_chunk512",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r1_rate0.08_chunk2048",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r1_rate0.08_chunk256",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r1_rate0.08_chunk512",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r1_rate0.24_chunk2048",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r1_rate0.24_chunk256",
+    "successful": 50,
+    "errors": 0
+  },
+  {
+    "run_id": "load_r1_rate0.24_chunk512",
+    "successful": 50,
+    "errors": 0
+  }
+]

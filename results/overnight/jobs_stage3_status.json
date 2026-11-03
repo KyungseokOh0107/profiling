@@ -1,0 +1,25 @@
+{
+  "deadline": "2026-11-03T07:00:00+09:00",
+  "jobs": [
+    {
+      "name": "client_process_crossover",
+      "started": "2026-11-03T06:24:53.713368+09:00",
+      "log": "results\\overnight\\client_process_crossover.log",
+      "pid": 19944,
+      "log_bytes": 27827,
+      "returncode": 0,
+      "finished": "2026-11-03T06:35:55.136700+09:00"
+    },
+    {
+      "name": "admission_crossover",
+      "started": "2026-11-03T06:35:55.138692+09:00",
+      "log": "results\\overnight\\admission_crossover.log",
+      "pid": 22016,
+      "log_bytes": 13051,
+      "returncode": 0,
+      "finished": "2026-11-03T06:48:15.605119+09:00"
+    }
+  ],
+  "running": null,
+  "updated": "2026-11-03T06:48:15.605119+09:00"
+}

@@ -1,0 +1,128 @@
+{
+  "0.08": [
+    {
+      "offset_s": 0.0,
+      "kind": "short"
+    },
+    {
+      "offset_s": 9.985693601525186,
+      "kind": "long"
+    },
+    {
+      "offset_s": 29.760830639131925,
+      "kind": "short"
+    },
+    {
+      "offset_s": 42.4452296104751,
+      "kind": "short"
+    },
+    {
+      "offset_s": 58.49323745203671,
+      "kind": "short"
+    },
+    {
+      "offset_s": 67.22041668039657,
+      "kind": "long"
+    },
+    {
+      "offset_s": 89.8164280554567,
+      "kind": "short"
+    },
+    {
+      "offset_s": 104.87868377035609,
+      "kind": "short"
+    },
+    {
+      "offset_s": 107.49319183684644,
+      "kind": "short"
+    },
+    {
+      "offset_s": 112.49999999999999,
+      "kind": "short"
+    }
+  ],
+  "0.16": [
+    {
+      "offset_s": 0.0,
+      "kind": "short"
+    },
+    {
+      "offset_s": 4.992846800762593,
+      "kind": "long"
+    },
+    {
+      "offset_s": 14.880415319565962,
+      "kind": "short"
+    },
+    {
+      "offset_s": 21.22261480523755,
+      "kind": "short"
+    },
+    {
+      "offset_s": 29.246618726018355,
+      "kind": "short"
+    },
+    {
+      "offset_s": 33.610208340198284,
+      "kind": "long"
+    },
+    {
+      "offset_s": 44.90821402772835,
+      "kind": "short"
+    },
+    {
+      "offset_s": 52.439341885178045,
+      "kind": "short"
+    },
+    {
+      "offset_s": 53.74659591842322,
+      "kind": "short"
+    },
+    {
+      "offset_s": 56.24999999999999,
+      "kind": "short"
+    }
+  ],
+  "0.24": [
+    {
+      "offset_s": 0.0,
+      "kind": "short"
+    },
+    {
+      "offset_s": 3.328564533841729,
+      "kind": "long"
+    },
+    {
+      "offset_s": 9.920276879710642,
+      "kind": "short"
+    },
+    {
+      "offset_s": 14.148409870158368,
+      "kind": "short"
+    },
+    {
+      "offset_s": 19.497745817345567,
+      "kind": "short"
+    },
+    {
+      "offset_s": 22.406805560132188,
+      "kind": "long"
+    },
+    {
+      "offset_s": 29.938809351818897,
+      "kind": "short"
+    },
+    {
+      "offset_s": 34.95956125678536,
+      "kind": "short"
+    },
+    {
+      "offset_s": 35.83106394561548,
+      "kind": "short"
+    },
+    {
+      "offset_s": 37.5,
+      "kind": "short"
+    }
+  ]
+}

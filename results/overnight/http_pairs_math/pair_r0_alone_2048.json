@@ -1,0 +1,4173 @@
+{
+  "summary": {
+    "run_id": "pair_r0_alone_2048",
+    "phase": "pairs",
+    "case": "alone",
+    "chunk": 2048,
+    "repeat": 0,
+    "warmup": false,
+    "backend": "math",
+    "requests": 1,
+    "completed": 1,
+    "errors": 0,
+    "elapsed_s": 9.4104043,
+    "output_tokens_s": 27.203932141364003,
+    "good_requests": 1,
+    "goodput_req_s": 0.10626535992720314,
+    "peak_allocated_mib": 2982.27587890625,
+    "max_pending": 0,
+    "max_pending_at_capacity": 0,
+    "max_admission_wait_ms": 0.3712,
+    "max_client_send_lag_ms": 0.0,
+    "max_active": 1,
+    "short": {
+      "n": 1,
+      "ttft_median_ms": 51.0348,
+      "gap_max_median_ms": 38.5917,
+      "ttft_max_ms": 51.0348
+    },
+    "a_post_max_gap_ms": 38.5917
+  },
+  "requests": [
+    {
+      "request_id": "pair_r0_alone_2048_A",
+      "prompt_tokens": 128,
+      "scheduled_ns": null,
+      "send_ns": 29332071824800,
+      "tokens": [
+        {
+          "index": 1,
+          "token_id": 1393,
+          "generated_ns": 29332122645000,
+          "received_ns": 29332122859600
+        },
+        {
+          "index": 2,
+          "token_id": 2441,
+          "generated_ns": 29332159352700,
+          "received_ns": 29332159641700
+        },
+        {
+          "index": 3,
+          "token_id": 1196,
+          "generated_ns": 29332196455600,
+          "received_ns": 29332196847200
+        },
+        {
+          "index": 4,
+          "token_id": 374,
+          "generated_ns": 29332233961800,
+          "received_ns": 29332234391500
+        },
+        {
+          "index": 5,
+          "token_id": 8580,
+          "generated_ns": 29332271094400,
+          "received_ns": 29332271505600
+        },
+        {
+          "index": 6,
+          "token_id": 369,
+          "generated_ns": 29332307923000,
+          "received_ns": 29332308279200
+        },
+        {
+          "index": 7,
+          "token_id": 279,
+          "generated_ns": 29332344687800,
+          "received_ns": 29332344910500
+        },
+        {
+          "index": 8,
+          "token_id": 1790,
+          "generated_ns": 29332381634800,
+          "received_ns": 29332381953200
+        },
+        {
+          "index": 9,
+          "token_id": 2550,
+          "generated_ns": 29332418547300,
+          "received_ns": 29332418849500
+        },
+        {
+          "index": 10,
+          "token_id": 3950,
+          "generated_ns": 29332454522700,
+          "received_ns": 29332454882600
+        },
+        {
+          "index": 11,
+          "token_id": 13,
+          "generated_ns": 29332491233900,
+          "received_ns": 29332491433800
+        },
+        {
+          "index": 12,
+          "token_id": 81917,
+          "generated_ns": 29332528031800,
+          "received_ns": 29332528358400
+        },
+        {
+          "index": 13,
+          "token_id": 1246,
+          "generated_ns": 29332564605600,
+          "received_ns": 29332565017100
+        },
+        {
+          "index": 14,
+          "token_id": 1681,
+          "generated_ns": 29332601670500,
+          "received_ns": 29332602102400
+        },
+        {
+          "index": 15,
+          "token_id": 37852,
+          "generated_ns": 29332638809400,
+          "received_ns": 29332639208600
+        },
+        {
+          "index": 16,
+          "token_id": 21501,
+          "generated_ns": 29332675507400,
+          "received_ns": 29332675788700
+        },
+        {
+          "index": 17,
+          "token_id": 39270,
+          "generated_ns": 29332712422200,
+          "received_ns": 29332712849500
+        },
+        {
+          "index": 18,
+          "token_id": 323,
+          "generated_ns": 29332749747400,
+          "received_ns": 29332750142600
+        },
+        {
+          "index": 19,
+          "token_id": 63762,
+          "generated_ns": 29332786869500,
+          "received_ns": 29332787205700
+        },
+        {
+          "index": 20,
+          "token_id": 624,
+          "generated_ns": 29332823505500,
+          "received_ns": 29332823891700
+        },
+        {
+          "index": 21,
+          "token_id": 2082,
+          "generated_ns": 29332860448100,
+          "received_ns": 29332860740400
+        },
+        {
+          "index": 22,
+          "token_id": 15235,
+          "generated_ns": 29332896904000,
+          "received_ns": 29332897184400
+        },
+        {
+          "index": 23,
+          "token_id": 44378,
+          "generated_ns": 29332934399600,
+          "received_ns": 29332934688400
+        },
+        {
+          "index": 24,
+          "token_id": 2473,
+          "generated_ns": 29332971163100,
+          "received_ns": 29332971552800
+        },
+        {
+          "index": 25,
+          "token_id": 13248,
+          "generated_ns": 29333007569000,
+          "received_ns": 29333007906100
+        },
+        {
+          "index": 26,
+          "token_id": 825,
+          "generated_ns": 29333043990900,
+          "received_ns": 29333044275100
+        },
+        {
+          "index": 27,
+          "token_id": 22670,
+          "generated_ns": 29333080416100,
+          "received_ns": 29333080574600
+        },
+        {
+          "index": 28,
+          "token_id": 3941,
+          "generated_ns": 29333117298800,
+          "received_ns": 29333117637700
+        },
+        {
+          "index": 29,
+          "token_id": 7388,
+          "generated_ns": 29333153770200,
+          "received_ns": 29333154045800
+        },
+        {
+          "index": 30,
+          "token_id": 13,
+          "generated_ns": 29333190223200,
+          "received_ns": 29333190612900
+        },
+        {
+          "index": 31,
+          "token_id": 362,
+          "generated_ns": 29333226726000,
+          "received_ns": 29333227108000
+        },
+        {
+          "index": 32,
+          "token_id": 1293,
+          "generated_ns": 29333263002100,
+          "received_ns": 29333263289700
+        },
+        {
+          "index": 33,
+          "token_id": 2197,
+          "generated_ns": 29333299569200,
+          "received_ns": 29333299859600
+        },
+        {
+          "index": 34,
+          "token_id": 7460,
+          "generated_ns": 29333335826100,
+          "received_ns": 29333335976500
+        },
+        {
+          "index": 35,
+          "token_id": 9934,
+          "generated_ns": 29333372403100,
+          "received_ns": 29333372606600
+        },
+        {
+          "index": 36,
+          "token_id": 8692,
+          "generated_ns": 29333409469900,
+          "received_ns": 29333409893500
+        },
+        {
+          "index": 37,
+          "token_id": 11,
+          "generated_ns": 29333445974600,
+          "received_ns": 29333446352400
+        },
+        {
+          "index": 38,
+          "token_id": 1393,
+          "generated_ns": 29333482861500,
+          "received_ns": 29333483221400
+        },
+        {
+          "index": 39,
+          "token_id": 2441,
+          "generated_ns": 29333519368500,
+          "received_ns": 29333519736100
+        },
+        {
+          "index": 40,
+          "token_id": 1196,
+          "generated_ns": 29333555679800,
+          "received_ns": 29333555968700
+        },
+        {
+          "index": 41,
+          "token_id": 374,
+          "generated_ns": 29333592112200,
+          "received_ns": 29333592501100
+        },
+        {
+          "index": 42,
+          "token_id": 8580,
+          "generated_ns": 29333628649100,
+          "received_ns": 29333628970800
+        },
+        {
+          "index": 43,
+          "token_id": 369,
+          "generated_ns": 29333665089500,
+          "received_ns": 29333665380000
+        },
+        {
+          "index": 44,
+          "token_id": 279,
+          "generated_ns": 29333701745400,
+          "received_ns": 29333702033900
+        },
+        {
+          "index": 45,
+          "token_id": 1790,
+          "generated_ns": 29333738064100,
+          "received_ns": 29333738351800
+        },
+        {
+          "index": 46,
+          "token_id": 2550,
+          "generated_ns": 29333774377900,
+          "received_ns": 29333774777500
+        },
+        {
+          "index": 47,
+          "token_id": 3950,
+          "generated_ns": 29333810769100,
+          "received_ns": 29333811103700
+        },
+        {
+          "index": 48,
+          "token_id": 13,
+          "generated_ns": 29333847017600,
+          "received_ns": 29333847337700
+        },
+        {
+          "index": 49,
+          "token_id": 81917,
+          "generated_ns": 29333883921500,
+          "received_ns": 29333884193300
+        },
+        {
+          "index": 50,
+          "token_id": 1246,
+          "generated_ns": 29333920194800,
+          "received_ns": 29333920477100
+        },
+        {
+          "index": 51,
+          "token_id": 1681,
+          "generated_ns": 29333956459600,
+          "received_ns": 29333956733700
+        },
+        {
+          "index": 52,
+          "token_id": 37852,
+          "generated_ns": 29333992792600,
+          "received_ns": 29333993076100
+        },
+        {
+          "index": 53,
+          "token_id": 21501,
+          "generated_ns": 29334029124200,
+          "received_ns": 29334029407100
+        },
+        {
+          "index": 54,
+          "token_id": 39270,
+          "generated_ns": 29334065819900,
+          "received_ns": 29334066104100
+        },
+        {
+          "index": 55,
+          "token_id": 323,
+          "generated_ns": 29334102371800,
+          "received_ns": 29334102713700
+        },
+        {
+          "index": 56,
+          "token_id": 63762,
+          "generated_ns": 29334138719500,
+          "received_ns": 29334139063200
+        },
+        {
+          "index": 57,
+          "token_id": 624,
+          "generated_ns": 29334175149600,
+          "received_ns": 29334175458100
+        },
+        {
+          "index": 58,
+          "token_id": 2082,
+          "generated_ns": 29334211455500,
+          "received_ns": 29334211890900
+        },
+        {
+          "index": 59,
+          "token_id": 15235,
+          "generated_ns": 29334247664200,
+          "received_ns": 29334247988100
+        },
+        {
+          "index": 60,
+          "token_id": 44378,
+          "generated_ns": 29334284096100,
+          "received_ns": 29334284434300
+        },
+        {
+          "index": 61,
+          "token_id": 2473,
+          "generated_ns": 29334319832000,
+          "received_ns": 29334320129800
+        },
+        {
+          "index": 62,
+          "token_id": 13248,
+          "generated_ns": 29334356168500,
+          "received_ns": 29334356476700
+        },
+        {
+          "index": 63,
+          "token_id": 825,
+          "generated_ns": 29334392572200,
+          "received_ns": 29334392951900
+        },
+        {
+          "index": 64,
+          "token_id": 22670,
+          "generated_ns": 29334429026000,
+          "received_ns": 29334429417300
+        },
+        {
+          "index": 65,
+          "token_id": 3941,
+          "generated_ns": 29334465381000,
+          "received_ns": 29334465622500
+        },
+        {
+          "index": 66,
+          "token_id": 7388,
+          "generated_ns": 29334501731300,
+          "received_ns": 29334502016800
+        },
+        {
+          "index": 67,
+          "token_id": 13,
+          "generated_ns": 29334538266600,
+          "received_ns": 29334538600400
+        },
+        {
+          "index": 68,
+          "token_id": 362,
+          "generated_ns": 29334574944900,
+          "received_ns": 29334575234200
+        },
+        {
+          "index": 69,
+          "token_id": 1293,
+          "generated_ns": 29334611862100,
+          "received_ns": 29334612264100
+        },
+        {
+          "index": 70,
+          "token_id": 2197,
+          "generated_ns": 29334648904700,
+          "received_ns": 29334649358600
+        },
+        {
+          "index": 71,
+          "token_id": 7460,
+          "generated_ns": 29334686137400,
+          "received_ns": 29334686437500
+        },
+        {
+          "index": 72,
+          "token_id": 9934,
+          "generated_ns": 29334722749600,
+          "received_ns": 29334723089600
+        },
+        {
+          "index": 73,
+          "token_id": 8692,
+          "generated_ns": 29334759646400,
+          "received_ns": 29334759935000
+        },
+        {
+          "index": 74,
+          "token_id": 11,
+          "generated_ns": 29334796567400,
+          "received_ns": 29334796852100
+        },
+        {
+          "index": 75,
+          "token_id": 1393,
+          "generated_ns": 29334834010900,
+          "received_ns": 29334834303900
+        },
+        {
+          "index": 76,
+          "token_id": 2441,
+          "generated_ns": 29334870949900,
+          "received_ns": 29334871334400
+        },
+        {
+          "index": 77,
+          "token_id": 1196,
+          "generated_ns": 29334907631900,
+          "received_ns": 29334907992500
+        },
+        {
+          "index": 78,
+          "token_id": 374,
+          "generated_ns": 29334944133700,
+          "received_ns": 29334944419700
+        },
+        {
+          "index": 79,
+          "token_id": 8580,
+          "generated_ns": 29334980178800,
+          "received_ns": 29334980596900
+        },
+        {
+          "index": 80,
+          "token_id": 369,
+          "generated_ns": 29335017574200,
+          "received_ns": 29335017928500
+        },
+        {
+          "index": 81,
+          "token_id": 279,
+          "generated_ns": 29335054138200,
+          "received_ns": 29335054536500
+        },
+        {
+          "index": 82,
+          "token_id": 1790,
+          "generated_ns": 29335090587600,
+          "received_ns": 29335090857900
+        },
+        {
+          "index": 83,
+          "token_id": 2550,
+          "generated_ns": 29335127116300,
+          "received_ns": 29335127409900
+        },
+        {
+          "index": 84,
+          "token_id": 3950,
+          "generated_ns": 29335163577000,
+          "received_ns": 29335163856000
+        },
+        {
+          "index": 85,
+          "token_id": 13,
+          "generated_ns": 29335201191400,
+          "received_ns": 29335201480800
+        },
+        {
+          "index": 86,
+          "token_id": 81917,
+          "generated_ns": 29335237568900,
+          "received_ns": 29335237900900
+        },
+        {
+          "index": 87,
+          "token_id": 1246,
+          "generated_ns": 29335273890300,
+          "received_ns": 29335274269200
+        },
+        {
+          "index": 88,
+          "token_id": 1681,
+          "generated_ns": 29335310608400,
+          "received_ns": 29335310993900
+        },
+        {
+          "index": 89,
+          "token_id": 37852,
+          "generated_ns": 29335346982100,
+          "received_ns": 29335347253600
+        },
+        {
+          "index": 90,
+          "token_id": 21501,
+          "generated_ns": 29335384909200,
+          "received_ns": 29335385204000
+        },
+        {
+          "index": 91,
+          "token_id": 39270,
+          "generated_ns": 29335421233600,
+          "received_ns": 29335421526400
+        },
+        {
+          "index": 92,
+          "token_id": 323,
+          "generated_ns": 29335457246300,
+          "received_ns": 29335457482400
+        },
+        {
+          "index": 93,
+          "token_id": 63762,
+          "generated_ns": 29335493598900,
+          "received_ns": 29335493936400
+        },
+        {
+          "index": 94,
+          "token_id": 624,
+          "generated_ns": 29335529998000,
+          "received_ns": 29335530318700
+        },
+        {
+          "index": 95,
+          "token_id": 2082,
+          "generated_ns": 29335567328900,
+          "received_ns": 29335567609200
+        },
+        {
+          "index": 96,
+          "token_id": 15235,
+          "generated_ns": 29335603671300,
+          "received_ns": 29335604037700
+        },
+        {
+          "index": 97,
+          "token_id": 44378,
+          "generated_ns": 29335640199800,
+          "received_ns": 29335640492900
+        },
+        {
+          "index": 98,
+          "token_id": 2473,
+          "generated_ns": 29335676683700,
+          "received_ns": 29335676973800
+        },
+        {
+          "index": 99,
+          "token_id": 13248,
+          "generated_ns": 29335712333400,
+          "received_ns": 29335712549900
+        },
+        {
+          "index": 100,
+          "token_id": 825,
+          "generated_ns": 29335748027600,
+          "received_ns": 29335748180600
+        },
+        {
+          "index": 101,
+          "token_id": 22670,
+          "generated_ns": 29335784654100,
+          "received_ns": 29335785007100
+        },
+        {
+          "index": 102,
+          "token_id": 3941,
+          "generated_ns": 29335821118100,
+          "received_ns": 29335821471300
+        },
+        {
+          "index": 103,
+          "token_id": 7388,
+          "generated_ns": 29335857436900,
+          "received_ns": 29335857838700
+        },
+        {
+          "index": 104,
+          "token_id": 13,
+          "generated_ns": 29335893735800,
+          "received_ns": 29335894011800
+        },
+        {
+          "index": 105,
+          "token_id": 362,
+          "generated_ns": 29335930243600,
+          "received_ns": 29335930677100
+        },
+        {
+          "index": 106,
+          "token_id": 1293,
+          "generated_ns": 29335967764500,
+          "received_ns": 29335967937400
+        },
+        {
+          "index": 107,
+          "token_id": 2197,
+          "generated_ns": 29336004032100,
+          "received_ns": 29336004322100
+        },
+        {
+          "index": 108,
+          "token_id": 7460,
+          "generated_ns": 29336040139100,
+          "received_ns": 29336040455900
+        },
+        {
+          "index": 109,
+          "token_id": 9934,
+          "generated_ns": 29336076396800,
+          "received_ns": 29336076735200
+        },
+        {
+          "index": 110,
+          "token_id": 8692,
+          "generated_ns": 29336112922200,
+          "received_ns": 29336113264900
+        },
+        {
+          "index": 111,
+          "token_id": 11,
+          "generated_ns": 29336149838500,
+          "received_ns": 29336150113400
+        },
+        {
+          "index": 112,
+          "token_id": 1393,
+          "generated_ns": 29336186681000,
+          "received_ns": 29336187077800
+        },
+        {
+          "index": 113,
+          "token_id": 2441,
+          "generated_ns": 29336223222400,
+          "received_ns": 29336223415600
+        },
+        {
+          "index": 114,
+          "token_id": 1196,
+          "generated_ns": 29336259796400,
+          "received_ns": 29336260151600
+        },
+        {
+          "index": 115,
+          "token_id": 374,
+          "generated_ns": 29336296076600,
+          "received_ns": 29336296233200
+        },
+        {
+          "index": 116,
+          "token_id": 8580,
+          "generated_ns": 29336332684500,
+          "received_ns": 29336333082500
+        },
+        {
+          "index": 117,
+          "token_id": 369,
+          "generated_ns": 29336369122200,
+          "received_ns": 29336369403800
+        },
+        {
+          "index": 118,
+          "token_id": 279,
+          "generated_ns": 29336405335300,
+          "received_ns": 29336405618600
+        },
+        {
+          "index": 119,
+          "token_id": 1790,
+          "generated_ns": 29336441734300,
+          "received_ns": 29336442126600
+        },
+        {
+          "index": 120,
+          "token_id": 2550,
+          "generated_ns": 29336478081000,
+          "received_ns": 29336478360400
+        },
+        {
+          "index": 121,
+          "token_id": 3950,
+          "generated_ns": 29336514569000,
+          "received_ns": 29336514972500
+        },
+        {
+          "index": 122,
+          "token_id": 13,
+          "generated_ns": 29336551087800,
+          "received_ns": 29336551376500
+        },
+        {
+          "index": 123,
+          "token_id": 81917,
+          "generated_ns": 29336587459400,
+          "received_ns": 29336587746400
+        },
+        {
+          "index": 124,
+          "token_id": 1246,
+          "generated_ns": 29336623872000,
+          "received_ns": 29336624150200
+        },
+        {
+          "index": 125,
+          "token_id": 1681,
+          "generated_ns": 29336660654000,
+          "received_ns": 29336660840500
+        },
+        {
+          "index": 126,
+          "token_id": 37852,
+          "generated_ns": 29336697377300,
+          "received_ns": 29336697683200
+        },
+        {
+          "index": 127,
+          "token_id": 21501,
+          "generated_ns": 29336735318700,
+          "received_ns": 29336735717300
+        },
+        {
+          "index": 128,
+          "token_id": 39270,
+          "generated_ns": 29336772120900,
+          "received_ns": 29336772466800
+        },
+        {
+          "index": 129,
+          "token_id": 323,
+          "generated_ns": 29336808388900,
+          "received_ns": 29336808842300
+        },
+        {
+          "index": 130,
+          "token_id": 63762,
+          "generated_ns": 29336844681800,
+          "received_ns": 29336844848200
+        },
+        {
+          "index": 131,
+          "token_id": 624,
+          "generated_ns": 29336881002500,
+          "received_ns": 29336881290100
+        },
+        {
+          "index": 132,
+          "token_id": 2082,
+          "generated_ns": 29336917567400,
+          "received_ns": 29336917856000
+        },
+        {
+          "index": 133,
+          "token_id": 15235,
+          "generated_ns": 29336953881600,
+          "received_ns": 29336954222600
+        },
+        {
+          "index": 134,
+          "token_id": 44378,
+          "generated_ns": 29336990252100,
+          "received_ns": 29336990600800
+        },
+        {
+          "index": 135,
+          "token_id": 2473,
+          "generated_ns": 29337026611800,
+          "received_ns": 29337026898200
+        },
+        {
+          "index": 136,
+          "token_id": 13248,
+          "generated_ns": 29337062838900,
+          "received_ns": 29337063126600
+        },
+        {
+          "index": 137,
+          "token_id": 825,
+          "generated_ns": 29337099634200,
+          "received_ns": 29337099925600
+        },
+        {
+          "index": 138,
+          "token_id": 22670,
+          "generated_ns": 29337135817800,
+          "received_ns": 29337135986000
+        },
+        {
+          "index": 139,
+          "token_id": 3941,
+          "generated_ns": 29337172166400,
+          "received_ns": 29337172547000
+        },
+        {
+          "index": 140,
+          "token_id": 7388,
+          "generated_ns": 29337208346600,
+          "received_ns": 29337208680700
+        },
+        {
+          "index": 141,
+          "token_id": 13,
+          "generated_ns": 29337244562600,
+          "received_ns": 29337244842000
+        },
+        {
+          "index": 142,
+          "token_id": 362,
+          "generated_ns": 29337280857800,
+          "received_ns": 29337281151800
+        },
+        {
+          "index": 143,
+          "token_id": 1293,
+          "generated_ns": 29337317625400,
+          "received_ns": 29337317915500
+        },
+        {
+          "index": 144,
+          "token_id": 2197,
+          "generated_ns": 29337354215500,
+          "received_ns": 29337354520200
+        },
+        {
+          "index": 145,
+          "token_id": 7460,
+          "generated_ns": 29337391122900,
+          "received_ns": 29337391375400
+        },
+        {
+          "index": 146,
+          "token_id": 9934,
+          "generated_ns": 29337428070700,
+          "received_ns": 29337428500600
+        },
+        {
+          "index": 147,
+          "token_id": 8692,
+          "generated_ns": 29337464720400,
+          "received_ns": 29337465117900
+        },
+        {
+          "index": 148,
+          "token_id": 11,
+          "generated_ns": 29337502424100,
+          "received_ns": 29337502834200
+        },
+        {
+          "index": 149,
+          "token_id": 1393,
+          "generated_ns": 29337540411900,
+          "received_ns": 29337540661400
+        },
+        {
+          "index": 150,
+          "token_id": 2441,
+          "generated_ns": 29337577186200,
+          "received_ns": 29337577499100
+        },
+        {
+          "index": 151,
+          "token_id": 1196,
+          "generated_ns": 29337613578600,
+          "received_ns": 29337613903500
+        },
+        {
+          "index": 152,
+          "token_id": 374,
+          "generated_ns": 29337651046800,
+          "received_ns": 29337651420900
+        },
+        {
+          "index": 153,
+          "token_id": 8580,
+          "generated_ns": 29337687942400,
+          "received_ns": 29337688237400
+        },
+        {
+          "index": 154,
+          "token_id": 369,
+          "generated_ns": 29337724289700,
+          "received_ns": 29337724689200
+        },
+        {
+          "index": 155,
+          "token_id": 279,
+          "generated_ns": 29337760849400,
+          "received_ns": 29337761091800
+        },
+        {
+          "index": 156,
+          "token_id": 1790,
+          "generated_ns": 29337797243100,
+          "received_ns": 29337797628400
+        },
+        {
+          "index": 157,
+          "token_id": 2550,
+          "generated_ns": 29337834157100,
+          "received_ns": 29337834523400
+        },
+        {
+          "index": 158,
+          "token_id": 3950,
+          "generated_ns": 29337870700200,
+          "received_ns": 29337871065900
+        },
+        {
+          "index": 159,
+          "token_id": 13,
+          "generated_ns": 29337906942900,
+          "received_ns": 29337907285800
+        },
+        {
+          "index": 160,
+          "token_id": 81917,
+          "generated_ns": 29337943072500,
+          "received_ns": 29337943346700
+        },
+        {
+          "index": 161,
+          "token_id": 1246,
+          "generated_ns": 29337980111600,
+          "received_ns": 29337980399400
+        },
+        {
+          "index": 162,
+          "token_id": 1681,
+          "generated_ns": 29338017142200,
+          "received_ns": 29338017428800
+        },
+        {
+          "index": 163,
+          "token_id": 37852,
+          "generated_ns": 29338053446600,
+          "received_ns": 29338053732800
+        },
+        {
+          "index": 164,
+          "token_id": 21501,
+          "generated_ns": 29338090009300,
+          "received_ns": 29338090447400
+        },
+        {
+          "index": 165,
+          "token_id": 39270,
+          "generated_ns": 29338126839900,
+          "received_ns": 29338127191300
+        },
+        {
+          "index": 166,
+          "token_id": 323,
+          "generated_ns": 29338163456000,
+          "received_ns": 29338163759300
+        },
+        {
+          "index": 167,
+          "token_id": 63762,
+          "generated_ns": 29338200259100,
+          "received_ns": 29338200477500
+        },
+        {
+          "index": 168,
+          "token_id": 624,
+          "generated_ns": 29338236335900,
+          "received_ns": 29338236749700
+        },
+        {
+          "index": 169,
+          "token_id": 2082,
+          "generated_ns": 29338272998400,
+          "received_ns": 29338273284600
+        },
+        {
+          "index": 170,
+          "token_id": 15235,
+          "generated_ns": 29338309378400,
+          "received_ns": 29338309720900
+        },
+        {
+          "index": 171,
+          "token_id": 44378,
+          "generated_ns": 29338345738200,
+          "received_ns": 29338346053600
+        },
+        {
+          "index": 172,
+          "token_id": 2473,
+          "generated_ns": 29338381952700,
+          "received_ns": 29338382315600
+        },
+        {
+          "index": 173,
+          "token_id": 13248,
+          "generated_ns": 29338418140000,
+          "received_ns": 29338418525900
+        },
+        {
+          "index": 174,
+          "token_id": 825,
+          "generated_ns": 29338454578500,
+          "received_ns": 29338454860100
+        },
+        {
+          "index": 175,
+          "token_id": 22670,
+          "generated_ns": 29338490996600,
+          "received_ns": 29338491293100
+        },
+        {
+          "index": 176,
+          "token_id": 3941,
+          "generated_ns": 29338527542900,
+          "received_ns": 29338527708300
+        },
+        {
+          "index": 177,
+          "token_id": 7388,
+          "generated_ns": 29338563939600,
+          "received_ns": 29338564260400
+        },
+        {
+          "index": 178,
+          "token_id": 13,
+          "generated_ns": 29338601397600,
+          "received_ns": 29338601681600
+        },
+        {
+          "index": 179,
+          "token_id": 362,
+          "generated_ns": 29338637668600,
+          "received_ns": 29338637946100
+        },
+        {
+          "index": 180,
+          "token_id": 1293,
+          "generated_ns": 29338674134900,
+          "received_ns": 29338674428800
+        },
+        {
+          "index": 181,
+          "token_id": 2197,
+          "generated_ns": 29338710447500,
+          "received_ns": 29338710807500
+        },
+        {
+          "index": 182,
+          "token_id": 7460,
+          "generated_ns": 29338747149900,
+          "received_ns": 29338747440900
+        },
+        {
+          "index": 183,
+          "token_id": 9934,
+          "generated_ns": 29338784217600,
+          "received_ns": 29338784625300
+        },
+        {
+          "index": 184,
+          "token_id": 8692,
+          "generated_ns": 29338820805600,
+          "received_ns": 29338821092300
+        },
+        {
+          "index": 185,
+          "token_id": 11,
+          "generated_ns": 29338857265500,
+          "received_ns": 29338857607100
+        },
+        {
+          "index": 186,
+          "token_id": 1393,
+          "generated_ns": 29338893688100,
+          "received_ns": 29338893970900
+        },
+        {
+          "index": 187,
+          "token_id": 2441,
+          "generated_ns": 29338930240900,
+          "received_ns": 29338930623000
+        },
+        {
+          "index": 188,
+          "token_id": 1196,
+          "generated_ns": 29338969026100,
+          "received_ns": 29338969206200
+        },
+        {
+          "index": 189,
+          "token_id": 374,
+          "generated_ns": 29339006057800,
+          "received_ns": 29339006402700
+        },
+        {
+          "index": 190,
+          "token_id": 8580,
+          "generated_ns": 29339043233800,
+          "received_ns": 29339043557600
+        },
+        {
+          "index": 191,
+          "token_id": 369,
+          "generated_ns": 29339080230300,
+          "received_ns": 29339080658000
+        },
+        {
+          "index": 192,
+          "token_id": 279,
+          "generated_ns": 29339117327200,
+          "received_ns": 29339117697500
+        },
+        {
+          "index": 193,
+          "token_id": 1790,
+          "generated_ns": 29339153739500,
+          "received_ns": 29339154022500
+        },
+        {
+          "index": 194,
+          "token_id": 2550,
+          "generated_ns": 29339190822400,
+          "received_ns": 29339191214900
+        },
+        {
+          "index": 195,
+          "token_id": 3950,
+          "generated_ns": 29339227301600,
+          "received_ns": 29339227685900
+        },
+        {
+          "index": 196,
+          "token_id": 13,
+          "generated_ns": 29339263698500,
+          "received_ns": 29339264039600
+        },
+        {
+          "index": 197,
+          "token_id": 81917,
+          "generated_ns": 29339301129800,
+          "received_ns": 29339301413300
+        },
+        {
+          "index": 198,
+          "token_id": 1246,
+          "generated_ns": 29339337865000,
+          "received_ns": 29339338210100
+        },
+        {
+          "index": 199,
+          "token_id": 1681,
+          "generated_ns": 29339374208600,
+          "received_ns": 29339374546300
+        },
+        {
+          "index": 200,
+          "token_id": 37852,
+          "generated_ns": 29339410722800,
+          "received_ns": 29339411072400
+        },
+        {
+          "index": 201,
+          "token_id": 21501,
+          "generated_ns": 29339447066800,
+          "received_ns": 29339447360000
+        },
+        {
+          "index": 202,
+          "token_id": 39270,
+          "generated_ns": 29339484139200,
+          "received_ns": 29339484423900
+        },
+        {
+          "index": 203,
+          "token_id": 323,
+          "generated_ns": 29339520757300,
+          "received_ns": 29339521047500
+        },
+        {
+          "index": 204,
+          "token_id": 63762,
+          "generated_ns": 29339557284100,
+          "received_ns": 29339557629000
+        },
+        {
+          "index": 205,
+          "token_id": 624,
+          "generated_ns": 29339593895000,
+          "received_ns": 29339594177700
+        },
+        {
+          "index": 206,
+          "token_id": 2082,
+          "generated_ns": 29339630564700,
+          "received_ns": 29339630765100
+        },
+        {
+          "index": 207,
+          "token_id": 15235,
+          "generated_ns": 29339668249200,
+          "received_ns": 29339668539500
+        },
+        {
+          "index": 208,
+          "token_id": 44378,
+          "generated_ns": 29339704803400,
+          "received_ns": 29339705116100
+        },
+        {
+          "index": 209,
+          "token_id": 2473,
+          "generated_ns": 29339741461100,
+          "received_ns": 29339741813900
+        },
+        {
+          "index": 210,
+          "token_id": 13248,
+          "generated_ns": 29339778152300,
+          "received_ns": 29339778528200
+        },
+        {
+          "index": 211,
+          "token_id": 825,
+          "generated_ns": 29339815115500,
+          "received_ns": 29339815490400
+        },
+        {
+          "index": 212,
+          "token_id": 22670,
+          "generated_ns": 29339852901300,
+          "received_ns": 29339853280200
+        },
+        {
+          "index": 213,
+          "token_id": 3941,
+          "generated_ns": 29339889742800,
+          "received_ns": 29339890036900
+        },
+        {
+          "index": 214,
+          "token_id": 7388,
+          "generated_ns": 29339926291300,
+          "received_ns": 29339926674400
+        },
+        {
+          "index": 215,
+          "token_id": 13,
+          "generated_ns": 29339962931200,
+          "received_ns": 29339963330400
+        },
+        {
+          "index": 216,
+          "token_id": 362,
+          "generated_ns": 29340000797200,
+          "received_ns": 29340001167900
+        },
+        {
+          "index": 217,
+          "token_id": 1293,
+          "generated_ns": 29340038149200,
+          "received_ns": 29340038478300
+        },
+        {
+          "index": 218,
+          "token_id": 2197,
+          "generated_ns": 29340075031800,
+          "received_ns": 29340075233000
+        },
+        {
+          "index": 219,
+          "token_id": 7460,
+          "generated_ns": 29340112163400,
+          "received_ns": 29340112491400
+        },
+        {
+          "index": 220,
+          "token_id": 9934,
+          "generated_ns": 29340148940000,
+          "received_ns": 29340149275300
+        },
+        {
+          "index": 221,
+          "token_id": 8692,
+          "generated_ns": 29340187539800,
+          "received_ns": 29340187861500
+        },
+        {
+          "index": 222,
+          "token_id": 11,
+          "generated_ns": 29340224902000,
+          "received_ns": 29340225151600
+        },
+        {
+          "index": 223,
+          "token_id": 1393,
+          "generated_ns": 29340261564200,
+          "received_ns": 29340261732800
+        },
+        {
+          "index": 224,
+          "token_id": 2441,
+          "generated_ns": 29340298170800,
+          "received_ns": 29340298558900
+        },
+        {
+          "index": 225,
+          "token_id": 1196,
+          "generated_ns": 29340335727900,
+          "received_ns": 29340336042000
+        },
+        {
+          "index": 226,
+          "token_id": 374,
+          "generated_ns": 29340372483100,
+          "received_ns": 29340372799900
+        },
+        {
+          "index": 227,
+          "token_id": 8580,
+          "generated_ns": 29340409920200,
+          "received_ns": 29340410312000
+        },
+        {
+          "index": 228,
+          "token_id": 369,
+          "generated_ns": 29340446864000,
+          "received_ns": 29340447263100
+        },
+        {
+          "index": 229,
+          "token_id": 279,
+          "generated_ns": 29340484366500,
+          "received_ns": 29340484653900
+        },
+        {
+          "index": 230,
+          "token_id": 1790,
+          "generated_ns": 29340521431400,
+          "received_ns": 29340521732600
+        },
+        {
+          "index": 231,
+          "token_id": 2550,
+          "generated_ns": 29340558537300,
+          "received_ns": 29340558894800
+        },
+        {
+          "index": 232,
+          "token_id": 3950,
+          "generated_ns": 29340595859700,
+          "received_ns": 29340596197700
+        },
+        {
+          "index": 233,
+          "token_id": 13,
+          "generated_ns": 29340634487900,
+          "received_ns": 29340634789400
+        },
+        {
+          "index": 234,
+          "token_id": 81917,
+          "generated_ns": 29340671007300,
+          "received_ns": 29340671312400
+        },
+        {
+          "index": 235,
+          "token_id": 1246,
+          "generated_ns": 29340707958800,
+          "received_ns": 29340708361600
+        },
+        {
+          "index": 236,
+          "token_id": 1681,
+          "generated_ns": 29340744867600,
+          "received_ns": 29340745265900
+        },
+        {
+          "index": 237,
+          "token_id": 37852,
+          "generated_ns": 29340781827300,
+          "received_ns": 29340782139800
+        },
+        {
+          "index": 238,
+          "token_id": 21501,
+          "generated_ns": 29340819377000,
+          "received_ns": 29340819681200
+        },
+        {
+          "index": 239,
+          "token_id": 39270,
+          "generated_ns": 29340856307700,
+          "received_ns": 29340856603300
+        },
+        {
+          "index": 240,
+          "token_id": 323,
+          "generated_ns": 29340893135600,
+          "received_ns": 29340893404400
+        },
+        {
+          "index": 241,
+          "token_id": 63762,
+          "generated_ns": 29340930168800,
+          "received_ns": 29340930415900
+        },
+        {
+          "index": 242,
+          "token_id": 624,
+          "generated_ns": 29340967889300,
+          "received_ns": 29340968086100
+        },
+        {
+          "index": 243,
+          "token_id": 2082,
+          "generated_ns": 29341004421500,
+          "received_ns": 29341004737700
+        },
+        {
+          "index": 244,
+          "token_id": 15235,
+          "generated_ns": 29341041081500,
+          "received_ns": 29341041452900
+        },
+        {
+          "index": 245,
+          "token_id": 44378,
+          "generated_ns": 29341077767100,
+          "received_ns": 29341078162400
+        },
+        {
+          "index": 246,
+          "token_id": 2473,
+          "generated_ns": 29341114661400,
+          "received_ns": 29341114912300
+        },
+        {
+          "index": 247,
+          "token_id": 13248,
+          "generated_ns": 29341151770800,
+          "received_ns": 29341152115500
+        },
+        {
+          "index": 248,
+          "token_id": 825,
+          "generated_ns": 29341188292300,
+          "received_ns": 29341188659900
+        },
+        {
+          "index": 249,
+          "token_id": 22670,
+          "generated_ns": 29341224897500,
+          "received_ns": 29341225312500
+        },
+        {
+          "index": 250,
+          "token_id": 3941,
+          "generated_ns": 29341261489300,
+          "received_ns": 29341261657400
+        },
+        {
+          "index": 251,
+          "token_id": 7388,
+          "generated_ns": 29341298174800,
+          "received_ns": 29341298473100
+        },
+        {
+          "index": 252,
+          "token_id": 13,
+          "generated_ns": 29341335391000,
+          "received_ns": 29341335655900
+        },
+        {
+          "index": 253,
+          "token_id": 362,
+          "generated_ns": 29341372009900,
+          "received_ns": 29341372402200
+        },
+        {
+          "index": 254,
+          "token_id": 1293,
+          "generated_ns": 29341408847400,
+          "received_ns": 29341409241900
+        },
+        {
+          "index": 255,
+          "token_id": 2197,
+          "generated_ns": 29341445340800,
+          "received_ns": 29341445661500
+        },
+        {
+          "index": 256,
+          "token_id": 7460,
+          "generated_ns": 29341481814700,
+          "received_ns": 29341481985600
+        }
+      ],
+      "aux_events": [
+        {
+          "event": "accepted",
+          "request_id": "pair_r0_alone_2048_A",
+          "accepted_ns": 29332082567100,
+          "received_ns": 29332082831000
+        },
+        {
+          "event": "done",
+          "output_tokens": 256,
+          "completed_ns": 29341481836500,
+          "received_ns": 29341482229100
+        }
+      ],
+      "http_status": 200,
+      "done_ns": 29341482229100,
+      "ttft_ms": 51.0348,
+      "scheduled_ttft_ms": 51.0348,
+      "send_lag_ms": 0.0,
+      "gaps_ms": [
+        36.7821,
+        37.2055,
+        37.5443,
+        37.1141,
+        36.7736,
+        36.6313,
+        37.0427,
+        36.8963,
+        36.0331,
+        36.5512,
+        36.9246,
+        36.6587,
+        37.0853,
+        37.1062,
+        36.5801,
+        37.0608,
+        37.2931,
+        37.0631,
+        36.686,
+        36.8487,
+        36.444,
+        37.504,
+        36.8644,
+        36.3533,
+        36.369,
+        36.2995,
+        37.0631,
+        36.4081,
+        36.5671,
+        36.4951,
+        36.1817,
+        36.5699,
+        36.1169,
+        36.6301,
+        37.2869,
+        36.4589,
+        36.869,
+        36.5147,
+        36.2326,
+        36.5324,
+        36.4697,
+        36.4092,
+        36.6539,
+        36.3179,
+        36.4257,
+        36.3262,
+        36.234,
+        36.8556,
+        36.2838,
+        36.2566,
+        36.3424,
+        36.331,
+        36.697,
+        36.6096,
+        36.3495,
+        36.3949,
+        36.4328,
+        36.0972,
+        36.4462,
+        35.6955,
+        36.3469,
+        36.4752,
+        36.4654,
+        36.2052,
+        36.3943,
+        36.5836,
+        36.6338,
+        37.0299,
+        37.0945,
+        37.0789,
+        36.6521,
+        36.8454,
+        36.9171,
+        37.4518,
+        37.0305,
+        36.6581,
+        36.4272,
+        36.1772,
+        37.3316,
+        36.608,
+        36.3214,
+        36.552,
+        36.4461,
+        37.6248,
+        36.4201,
+        36.3683,
+        36.7247,
+        36.2597,
+        37.9504,
+        36.3224,
+        35.956,
+        36.454,
+        36.3823,
+        37.2905,
+        36.4285,
+        36.4552,
+        36.4809,
+        35.5761,
+        35.6307,
+        36.8265,
+        36.4642,
+        36.3674,
+        36.1731,
+        36.6653,
+        37.2603,
+        36.3847,
+        36.1338,
+        36.2793,
+        36.5297,
+        36.8485,
+        36.9644,
+        36.3378,
+        36.736,
+        36.0816,
+        36.8493,
+        36.3213,
+        36.2148,
+        36.508,
+        36.2338,
+        36.6121,
+        36.404,
+        36.3699,
+        36.4038,
+        36.6903,
+        36.8427,
+        38.0341,
+        36.7495,
+        36.3755,
+        36.0059,
+        36.4419,
+        36.5659,
+        36.3666,
+        36.3782,
+        36.2974,
+        36.2284,
+        36.799,
+        36.0604,
+        36.561,
+        36.1337,
+        36.1613,
+        36.3098,
+        36.7637,
+        36.6047,
+        36.8552,
+        37.1252,
+        36.6173,
+        37.7163,
+        37.8272,
+        36.8377,
+        36.4044,
+        37.5174,
+        36.8165,
+        36.4518,
+        36.4026,
+        36.5366,
+        36.895,
+        36.5425,
+        36.2199,
+        36.0609,
+        37.0527,
+        37.0294,
+        36.304,
+        36.7146,
+        36.7439,
+        36.568,
+        36.7182,
+        36.2722,
+        36.5349,
+        36.4363,
+        36.3327,
+        36.262,
+        36.2103,
+        36.3342,
+        36.433,
+        36.4152,
+        36.5521,
+        37.4212,
+        36.2645,
+        36.4827,
+        36.3787,
+        36.6334,
+        37.1844,
+        36.467,
+        36.5148,
+        36.3638,
+        36.6521,
+        38.5832,
+        37.1965,
+        37.1549,
+        37.1004,
+        37.0395,
+        36.325,
+        37.1924,
+        36.471,
+        36.3537,
+        37.3737,
+        36.7968,
+        36.3362,
+        36.5261,
+        36.2876,
+        37.0639,
+        36.6236,
+        36.5815,
+        36.5487,
+        36.5874,
+        37.7744,
+        36.5766,
+        36.6978,
+        36.7143,
+        36.9622,
+        37.7898,
+        36.7567,
+        36.6375,
+        36.656,
+        37.8375,
+        37.3104,
+        36.7547,
+        37.2584,
+        36.7839,
+        38.5862,
+        37.2901,
+        36.5812,
+        36.8261,
+        37.4831,
+        36.7579,
+        37.5121,
+        36.9511,
+        37.3908,
+        37.0787,
+        37.1622,
+        37.3029,
+        38.5917,
+        36.523,
+        37.0492,
+        36.9043,
+        36.8739,
+        37.5414,
+        36.9221,
+        36.8011,
+        37.0115,
+        37.6702,
+        36.6516,
+        36.7152,
+        36.7095,
+        36.7499,
+        37.2032,
+        36.5444,
+        36.6526,
+        36.3449,
+        36.8157,
+        37.1828,
+        36.7463,
+        36.8397,
+        36.4196,
+        36.3241
+      ],
+      "max_gap_ms": 38.5917,
+      "delivery_max_ms": 0.4539,
+      "output_sha256": "be9dd0f5afa88d9568a01a7b5cea7b5eb41605e2516c405bf148cd204e2b35d9",
+      "status": "ok"
+    }
+  ],
+  "server": [
+    {
+      "id": "pair_r0_alone_2048_A",
+      "accepted_ns": 29332082567100,
+      "steps": [
+        {
+          "phase": "prefill",
+          "start_ns": 29332083184500,
+          "end_ns": 29332122645000,
+          "input_tokens": 128,
+          "offset": 0,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332122720100,
+          "end_ns": 29332159352700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332159383900,
+          "end_ns": 29332196455600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332196487300,
+          "end_ns": 29332233961800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332234000900,
+          "end_ns": 29332271094400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332271126100,
+          "end_ns": 29332307923000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332307995900,
+          "end_ns": 29332344687800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332344720000,
+          "end_ns": 29332381634800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332381667500,
+          "end_ns": 29332418547300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332418580800,
+          "end_ns": 29332454522700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332454554700,
+          "end_ns": 29332491233900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332491305300,
+          "end_ns": 29332528031800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332528063800,
+          "end_ns": 29332564605600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332564637400,
+          "end_ns": 29332601670500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332601705600,
+          "end_ns": 29332638809400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332638842700,
+          "end_ns": 29332675507400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332675537600,
+          "end_ns": 29332712422200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332712455200,
+          "end_ns": 29332749747400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332749787200,
+          "end_ns": 29332786869500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332786903900,
+          "end_ns": 29332823505500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332823538000,
+          "end_ns": 29332860448100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332860480700,
+          "end_ns": 29332896904000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332896935700,
+          "end_ns": 29332934399600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332934470300,
+          "end_ns": 29332971163100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29332971194700,
+          "end_ns": 29333007569000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333007602300,
+          "end_ns": 29333043990900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333044023400,
+          "end_ns": 29333080416100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333080481800,
+          "end_ns": 29333117298800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333117332300,
+          "end_ns": 29333153770200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333153801600,
+          "end_ns": 29333190223200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333190256200,
+          "end_ns": 29333226726000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333226758900,
+          "end_ns": 29333263002100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333263073000,
+          "end_ns": 29333299569200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333299641000,
+          "end_ns": 29333335826100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333335888600,
+          "end_ns": 29333372403100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333372481600,
+          "end_ns": 29333409469900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333409502500,
+          "end_ns": 29333445974600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333446006500,
+          "end_ns": 29333482861500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333482933900,
+          "end_ns": 29333519368500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333519401100,
+          "end_ns": 29333555679800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333555712300,
+          "end_ns": 29333592112200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333592144200,
+          "end_ns": 29333628649100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333628681700,
+          "end_ns": 29333665089500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333665119900,
+          "end_ns": 29333701745400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333701776900,
+          "end_ns": 29333738064100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333738096600,
+          "end_ns": 29333774377900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333774410100,
+          "end_ns": 29333810769100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333810833300,
+          "end_ns": 29333847017600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333847047900,
+          "end_ns": 29333883921500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333883952400,
+          "end_ns": 29333920194800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333920257100,
+          "end_ns": 29333956459600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333956522100,
+          "end_ns": 29333992792600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29333992825500,
+          "end_ns": 29334029124200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334029194100,
+          "end_ns": 29334065819900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334065853100,
+          "end_ns": 29334102371800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334102406900,
+          "end_ns": 29334138719500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334138785100,
+          "end_ns": 29334175149600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334175181100,
+          "end_ns": 29334211455500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334211485300,
+          "end_ns": 29334247664200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334247694100,
+          "end_ns": 29334284096100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334284199100,
+          "end_ns": 29334319832000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334319862500,
+          "end_ns": 29334356168500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334356234600,
+          "end_ns": 29334392572200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334392603500,
+          "end_ns": 29334429026000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334429056700,
+          "end_ns": 29334465381000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334465412900,
+          "end_ns": 29334501731300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334501800200,
+          "end_ns": 29334538266600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334538296800,
+          "end_ns": 29334574944900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334574976900,
+          "end_ns": 29334611862100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334611895700,
+          "end_ns": 29334648904700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334648938700,
+          "end_ns": 29334686137400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334686170100,
+          "end_ns": 29334722749600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334722781600,
+          "end_ns": 29334759646400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334759678200,
+          "end_ns": 29334796567400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334796599700,
+          "end_ns": 29334834010900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334834047300,
+          "end_ns": 29334870949900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334870982500,
+          "end_ns": 29334907631900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334907666000,
+          "end_ns": 29334944133700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334944166500,
+          "end_ns": 29334980178800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29334980212400,
+          "end_ns": 29335017574200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335017651200,
+          "end_ns": 29335054138200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335054168800,
+          "end_ns": 29335090587600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335090618000,
+          "end_ns": 29335127116300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335127148600,
+          "end_ns": 29335163577000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335163609300,
+          "end_ns": 29335201191400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335201225900,
+          "end_ns": 29335237568900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335237600100,
+          "end_ns": 29335273890300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335273921200,
+          "end_ns": 29335310608400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335310638300,
+          "end_ns": 29335346982100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335347014000,
+          "end_ns": 29335384909200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335384943200,
+          "end_ns": 29335421233600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335421265300,
+          "end_ns": 29335457246300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335457275500,
+          "end_ns": 29335493598900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335493632600,
+          "end_ns": 29335529998000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335530028900,
+          "end_ns": 29335567328900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335567361800,
+          "end_ns": 29335603671300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335603702100,
+          "end_ns": 29335640199800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335640271600,
+          "end_ns": 29335676683700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335676758500,
+          "end_ns": 29335712333400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335712413900,
+          "end_ns": 29335748027600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335748240000,
+          "end_ns": 29335784654100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335784687000,
+          "end_ns": 29335821118100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335821185800,
+          "end_ns": 29335857436900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335857478800,
+          "end_ns": 29335893735800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335893800500,
+          "end_ns": 29335930243600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335930276100,
+          "end_ns": 29335967764500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29335967833400,
+          "end_ns": 29336004032100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336004104500,
+          "end_ns": 29336040139100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336040207000,
+          "end_ns": 29336076396800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336076428400,
+          "end_ns": 29336112922200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336112954000,
+          "end_ns": 29336149838500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336149869900,
+          "end_ns": 29336186681000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336186714000,
+          "end_ns": 29336223222400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336223290200,
+          "end_ns": 29336259796400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336259868500,
+          "end_ns": 29336296076600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336296143500,
+          "end_ns": 29336332684500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336332717700,
+          "end_ns": 29336369122200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336369190800,
+          "end_ns": 29336405335300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336405366900,
+          "end_ns": 29336441734300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336441767200,
+          "end_ns": 29336478081000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336478149400,
+          "end_ns": 29336514569000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336514600600,
+          "end_ns": 29336551087800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336551120700,
+          "end_ns": 29336587459400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336587530500,
+          "end_ns": 29336623872000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336623937200,
+          "end_ns": 29336660654000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336660725200,
+          "end_ns": 29336697377300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336697411700,
+          "end_ns": 29336735318700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336735354900,
+          "end_ns": 29336772120900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336772152700,
+          "end_ns": 29336808388900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336808465300,
+          "end_ns": 29336844681800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336844753200,
+          "end_ns": 29336881002500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336881035900,
+          "end_ns": 29336917567400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336917598800,
+          "end_ns": 29336953881600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336953950200,
+          "end_ns": 29336990252100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29336990284800,
+          "end_ns": 29337026611800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337026642900,
+          "end_ns": 29337062838900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337062909100,
+          "end_ns": 29337099634200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337099665700,
+          "end_ns": 29337135817800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337135886700,
+          "end_ns": 29337172166400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337172195800,
+          "end_ns": 29337208346600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337208376900,
+          "end_ns": 29337244562600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337244631600,
+          "end_ns": 29337280857800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337280890200,
+          "end_ns": 29337317625400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337317659100,
+          "end_ns": 29337354215500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337354247200,
+          "end_ns": 29337391122900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337391155800,
+          "end_ns": 29337428070700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337428102600,
+          "end_ns": 29337464720400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337464753700,
+          "end_ns": 29337502424100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337502464500,
+          "end_ns": 29337540411900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337540445800,
+          "end_ns": 29337577186200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337577221500,
+          "end_ns": 29337613578600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337613610500,
+          "end_ns": 29337651046800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337651090400,
+          "end_ns": 29337687942400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337687974300,
+          "end_ns": 29337724289700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337724324100,
+          "end_ns": 29337760849400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337760881100,
+          "end_ns": 29337797243100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337797277300,
+          "end_ns": 29337834157100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337834230800,
+          "end_ns": 29337870700200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337870732200,
+          "end_ns": 29337906942900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337906974600,
+          "end_ns": 29337943072500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337943137200,
+          "end_ns": 29337980111600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29337980144900,
+          "end_ns": 29338017142200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338017175400,
+          "end_ns": 29338053446600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338053512500,
+          "end_ns": 29338090009300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338090048000,
+          "end_ns": 29338126839900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338126909900,
+          "end_ns": 29338163456000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338163490800,
+          "end_ns": 29338200259100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338200341200,
+          "end_ns": 29338236335900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338236368700,
+          "end_ns": 29338272998400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338273032300,
+          "end_ns": 29338309378400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338309410500,
+          "end_ns": 29338345738200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338345769700,
+          "end_ns": 29338381952700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338381987400,
+          "end_ns": 29338418140000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338418170800,
+          "end_ns": 29338454578500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338454610600,
+          "end_ns": 29338490996600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338491072900,
+          "end_ns": 29338527542900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338527611700,
+          "end_ns": 29338563939600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338564007100,
+          "end_ns": 29338601397600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338601467000,
+          "end_ns": 29338637668600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338637737200,
+          "end_ns": 29338674134900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338674167700,
+          "end_ns": 29338710447500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338710482200,
+          "end_ns": 29338747149900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338747182000,
+          "end_ns": 29338784217600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338784254100,
+          "end_ns": 29338820805600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338820837400,
+          "end_ns": 29338857265500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338857297800,
+          "end_ns": 29338893688100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338893718200,
+          "end_ns": 29338930240900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338930272500,
+          "end_ns": 29338969026100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29338969103800,
+          "end_ns": 29339006057800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339006102200,
+          "end_ns": 29339043233800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339043268000,
+          "end_ns": 29339080230300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339080263400,
+          "end_ns": 29339117327200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339117359300,
+          "end_ns": 29339153739500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339153805500,
+          "end_ns": 29339190822400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339190854400,
+          "end_ns": 29339227301600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339227333700,
+          "end_ns": 29339263698500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339263767200,
+          "end_ns": 29339301129800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339301161700,
+          "end_ns": 29339337865000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339337897500,
+          "end_ns": 29339374208600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339374239400,
+          "end_ns": 29339410722800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339410788600,
+          "end_ns": 29339447066800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339447100000,
+          "end_ns": 29339484139200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339484209700,
+          "end_ns": 29339520757300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339520789400,
+          "end_ns": 29339557284100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339557350700,
+          "end_ns": 29339593895000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339593927700,
+          "end_ns": 29339630564700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339630637800,
+          "end_ns": 29339668249200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339668321500,
+          "end_ns": 29339704803400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339704836700,
+          "end_ns": 29339741461100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339741495100,
+          "end_ns": 29339778152300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339778184800,
+          "end_ns": 29339815115500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339815148400,
+          "end_ns": 29339852901300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339852936400,
+          "end_ns": 29339889742800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339889776100,
+          "end_ns": 29339926291300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339926323800,
+          "end_ns": 29339962931200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29339962963500,
+          "end_ns": 29340000797200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340000937300,
+          "end_ns": 29340038149200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340038181400,
+          "end_ns": 29340075031800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340075113100,
+          "end_ns": 29340112163400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340112196400,
+          "end_ns": 29340148940000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340148973600,
+          "end_ns": 29340187539800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340187619600,
+          "end_ns": 29340224902000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340224934100,
+          "end_ns": 29340261564200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340261638800,
+          "end_ns": 29340298170800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340298203500,
+          "end_ns": 29340335727900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340335763600,
+          "end_ns": 29340372483100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340372515100,
+          "end_ns": 29340409920200,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340409953000,
+          "end_ns": 29340446864000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340446896600,
+          "end_ns": 29340484366500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340484399500,
+          "end_ns": 29340521431400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340521463100,
+          "end_ns": 29340558537300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340558572900,
+          "end_ns": 29340595859700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340595900800,
+          "end_ns": 29340634487900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340634523100,
+          "end_ns": 29340671007300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340671040400,
+          "end_ns": 29340707958800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340707994500,
+          "end_ns": 29340744867600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340744900600,
+          "end_ns": 29340781827300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340781860800,
+          "end_ns": 29340819377000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340819409800,
+          "end_ns": 29340856307700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340856339500,
+          "end_ns": 29340893135600,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340893169700,
+          "end_ns": 29340930168800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340930200900,
+          "end_ns": 29340967889300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29340967963000,
+          "end_ns": 29341004421500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341004452800,
+          "end_ns": 29341041081500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341041113800,
+          "end_ns": 29341077767100,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341077800100,
+          "end_ns": 29341114661400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341114695200,
+          "end_ns": 29341151770800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341151803900,
+          "end_ns": 29341188292300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341188325200,
+          "end_ns": 29341224897500,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341224934900,
+          "end_ns": 29341261489300,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341261561800,
+          "end_ns": 29341298174800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341298206400,
+          "end_ns": 29341335391000,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341335425500,
+          "end_ns": 29341372009900,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341372041900,
+          "end_ns": 29341408847400,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341408879700,
+          "end_ns": 29341445340800,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        },
+        {
+          "phase": "decode",
+          "start_ns": 29341445407800,
+          "end_ns": 29341481814700,
+          "input_tokens": 1,
+          "offset": 128,
+          "active": 1,
+          "pending": 0
+        }
+      ],
+      "count": 256,
+      "offset": 128,
+      "admitted_ns": 29332082938300,
+      "completed_ns": 29341481836500
+    }
+  ]
+}

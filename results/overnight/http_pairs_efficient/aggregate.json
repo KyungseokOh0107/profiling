@@ -1,0 +1,349 @@
+[
+  {
+    "backend": "efficient",
+    "phase": "pairs",
+    "case": "alone",
+    "rate": null,
+    "chunk": 2048,
+    "client_placement": null,
+    "max_seqs": null,
+    "trials": 5,
+    "requests": 5,
+    "errors": 0,
+    "total_elapsed_s": 42.9346558,
+    "good_requests": 5,
+    "pooled_goodput_req_s": 0.11645604015765744,
+    "pooled_output_tokens_s": 29.812746280360304,
+    "output_tokens_s": {
+      "median": 31.20984551638506,
+      "min": 27.11615076071395,
+      "max": 32.435574491736766
+    },
+    "goodput_req_s": {
+      "median": 0.12191345904837914,
+      "min": 0.10592246390903887,
+      "max": 0.12670146285834674
+    },
+    "a_post_max_gap_ms": {
+      "median": 40.8911,
+      "min": 40.1595,
+      "max": 43.4642
+    },
+    "max_admission_wait_ms": {
+      "median": 0.3777,
+      "min": 0.1435,
+      "max": 0.4466
+    },
+    "max_pending_at_capacity": {
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "max_client_send_lag_ms": {
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "peak_allocated_mib": {
+      "median": 2975.51708984375,
+      "min": 2975.51708984375,
+      "max": 2975.51708984375
+    },
+    "128": {
+      "n": 5,
+      "scheduled_ttft_median_ms": 43.1708,
+      "scheduled_ttft_p95_ms": 43.3806,
+      "ttft_median_ms": 43.1708,
+      "ttft_p95_ms": 43.3806,
+      "max_gap_median_ms": 40.8911,
+      "max_gap_p95_ms": 43.4642
+    }
+  },
+  {
+    "backend": "efficient",
+    "phase": "pairs",
+    "case": "long",
+    "rate": null,
+    "chunk": 2048,
+    "client_placement": null,
+    "max_seqs": null,
+    "trials": 5,
+    "requests": 10,
+    "errors": 0,
+    "total_elapsed_s": 87.1542446,
+    "good_requests": 10,
+    "pooled_goodput_req_s": 0.11473910474349978,
+    "pooled_output_tokens_s": 29.373210814335945,
+    "output_tokens_s": {
+      "median": 29.161702603500423,
+      "min": 28.052898605745735,
+      "max": 31.06964737212437
+    },
+    "goodput_req_s": {
+      "median": 0.11391290079492353,
+      "min": 0.10958163517869428,
+      "max": 0.12136581004736081
+    },
+    "a_post_max_gap_ms": {
+      "median": 345.2681,
+      "min": 337.0681,
+      "max": 349.8079
+    },
+    "b_ttft_ms": {
+      "median": 378.3365,
+      "min": 369.3348,
+      "max": 383.5147
+    },
+    "max_admission_wait_ms": {
+      "median": 21.7752,
+      "min": 20.1026,
+      "max": 27.2768
+    },
+    "max_pending_at_capacity": {
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "max_client_send_lag_ms": {
+      "median": 0.5242,
+      "min": 0.4485,
+      "max": 0.6131
+    },
+    "peak_allocated_mib": {
+      "median": 3154.5244140625,
+      "min": 3154.5244140625,
+      "max": 3154.5244140625
+    },
+    "128": {
+      "n": 5,
+      "scheduled_ttft_median_ms": 43.5987,
+      "scheduled_ttft_p95_ms": 47.3782,
+      "ttft_median_ms": 43.5987,
+      "ttft_p95_ms": 47.3782,
+      "max_gap_median_ms": 345.2681,
+      "max_gap_p95_ms": 349.8079
+    },
+    "2048": {
+      "n": 5,
+      "scheduled_ttft_median_ms": 378.8947,
+      "scheduled_ttft_p95_ms": 384.1278,
+      "ttft_median_ms": 378.3365,
+      "ttft_p95_ms": 383.5147,
+      "max_gap_median_ms": 81.6944,
+      "max_gap_p95_ms": 86.8085
+    }
+  },
+  {
+    "backend": "efficient",
+    "phase": "pairs",
+    "case": "long",
+    "rate": null,
+    "chunk": 256,
+    "client_placement": null,
+    "max_seqs": null,
+    "trials": 5,
+    "requests": 10,
+    "errors": 0,
+    "total_elapsed_s": 87.0736013,
+    "good_requests": 10,
+    "pooled_goodput_req_s": 0.11484537047625247,
+    "pooled_output_tokens_s": 29.400414841920632,
+    "output_tokens_s": {
+      "median": 29.684002201254287,
+      "min": 27.955822636554693,
+      "max": 30.716059313886383
+    },
+    "goodput_req_s": {
+      "median": 0.11595313359864956,
+      "min": 0.10920243217404177,
+      "max": 0.11998460669486868
+    },
+    "a_post_max_gap_ms": {
+      "median": 92.956,
+      "min": 88.5263,
+      "max": 97.5429
+    },
+    "b_ttft_ms": {
+      "median": 727.9616,
+      "min": 692.1534,
+      "max": 770.7521
+    },
+    "max_admission_wait_ms": {
+      "median": 23.203,
+      "min": 20.6807,
+      "max": 26.1384
+    },
+    "max_pending_at_capacity": {
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "max_client_send_lag_ms": {
+      "median": 0.5285,
+      "min": 0.4941,
+      "max": 0.6663
+    },
+    "peak_allocated_mib": {
+      "median": 3083.353515625,
+      "min": 3083.353515625,
+      "max": 3083.353515625
+    },
+    "128": {
+      "n": 5,
+      "scheduled_ttft_median_ms": 43.0345,
+      "scheduled_ttft_p95_ms": 51.6555,
+      "ttft_median_ms": 43.0345,
+      "ttft_p95_ms": 51.6555,
+      "max_gap_median_ms": 92.956,
+      "max_gap_p95_ms": 97.5429
+    },
+    "2048": {
+      "n": 5,
+      "scheduled_ttft_median_ms": 728.4557,
+      "scheduled_ttft_p95_ms": 771.4184,
+      "ttft_median_ms": 727.9616,
+      "ttft_p95_ms": 770.7521,
+      "max_gap_median_ms": 81.1327,
+      "max_gap_p95_ms": 84.3392
+    }
+  },
+  {
+    "backend": "efficient",
+    "phase": "pairs",
+    "case": "long",
+    "rate": null,
+    "chunk": 512,
+    "client_placement": null,
+    "max_seqs": null,
+    "trials": 5,
+    "requests": 10,
+    "errors": 0,
+    "total_elapsed_s": 87.6301945,
+    "good_requests": 10,
+    "pooled_goodput_req_s": 0.11411591697425709,
+    "pooled_output_tokens_s": 29.213674745409815,
+    "output_tokens_s": {
+      "median": 29.457185425077135,
+      "min": 28.156204374713063,
+      "max": 30.67180318728199
+    },
+    "goodput_req_s": {
+      "median": 0.11506713056670756,
+      "min": 0.1099851733387229,
+      "max": 0.11981173120032028
+    },
+    "a_post_max_gap_ms": {
+      "median": 129.9669,
+      "min": 129.0281,
+      "max": 138.5087
+    },
+    "b_ttft_ms": {
+      "median": 526.222,
+      "min": 520.1551,
+      "max": 551.9827
+    },
+    "max_admission_wait_ms": {
+      "median": 25.5935,
+      "min": 21.4367,
+      "max": 30.2904
+    },
+    "max_pending_at_capacity": {
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "max_client_send_lag_ms": {
+      "median": 0.6005,
+      "min": 0.5302,
+      "max": 0.6678
+    },
+    "peak_allocated_mib": {
+      "median": 3083.376953125,
+      "min": 3083.376953125,
+      "max": 3083.376953125
+    },
+    "128": {
+      "n": 5,
+      "scheduled_ttft_median_ms": 43.1495,
+      "scheduled_ttft_p95_ms": 46.049,
+      "ttft_median_ms": 43.1495,
+      "ttft_p95_ms": 46.049,
+      "max_gap_median_ms": 129.9669,
+      "max_gap_p95_ms": 138.5087
+    },
+    "2048": {
+      "n": 5,
+      "scheduled_ttft_median_ms": 526.8898,
+      "scheduled_ttft_p95_ms": 552.5129,
+      "ttft_median_ms": 526.222,
+      "ttft_p95_ms": 551.9827,
+      "max_gap_median_ms": 80.977,
+      "max_gap_p95_ms": 81.6068
+    }
+  },
+  {
+    "backend": "efficient",
+    "phase": "pairs",
+    "case": "short",
+    "rate": null,
+    "chunk": 2048,
+    "client_placement": null,
+    "max_seqs": null,
+    "trials": 5,
+    "requests": 10,
+    "errors": 0,
+    "total_elapsed_s": 86.5887532,
+    "good_requests": 10,
+    "pooled_goodput_req_s": 0.11548843966955284,
+    "pooled_output_tokens_s": 29.565040555405528,
+    "output_tokens_s": {
+      "median": 29.371029611883525,
+      "min": 28.813771686246298,
+      "max": 31.13984678331738
+    },
+    "goodput_req_s": {
+      "median": 0.11473058442142002,
+      "min": 0.1125537956493996,
+      "max": 0.12164002649733352
+    },
+    "a_post_max_gap_ms": {
+      "median": 80.6054,
+      "min": 79.6278,
+      "max": 80.7986
+    },
+    "b_ttft_ms": {
+      "median": 92.8691,
+      "min": 92.6595,
+      "max": 118.8137
+    },
+    "max_admission_wait_ms": {
+      "median": 29.6808,
+      "min": 19.7472,
+      "max": 36.9304
+    },
+    "max_pending_at_capacity": {
+      "median": 0,
+      "min": 0,
+      "max": 0
+    },
+    "max_client_send_lag_ms": {
+      "median": 0.5307,
+      "min": 0.4759,
+      "max": 0.5566
+    },
+    "peak_allocated_mib": {
+      "median": 2985.4990234375,
+      "min": 2985.4990234375,
+      "max": 2985.4990234375
+    },
+    "128": {
+      "n": 10,
+      "scheduled_ttft_median_ms": 68.3289,
+      "scheduled_ttft_p95_ms": 119.2896,
+      "ttft_median_ms": 68.06354999999999,
+      "ttft_p95_ms": 118.8137,
+      "max_gap_median_ms": 80.58295,
+      "max_gap_p95_ms": 80.7986
+    }
+  }
+]

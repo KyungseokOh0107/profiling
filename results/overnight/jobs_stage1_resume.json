@@ -1,0 +1,4 @@
+[
+  {"name": "http_pairs_efficient_resumed", "args": ["benchmark_llm_http.py", "--backend", "efficient", "--phase", "pairs", "--repeats", "5", "--output", "results/overnight/http_pairs_efficient"]},
+  {"name": "http_load_pilot", "args": ["benchmark_llm_http.py", "--backend", "efficient", "--phase", "pilot", "--count", "10", "--repeats", "1", "--chunks", "512", "--rates", "0.08", "0.16", "0.24", "--output", "results/overnight/http_load_pilot"]}
+]

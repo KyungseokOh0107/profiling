@@ -1,0 +1,9 @@
+{
+  "perf_counter": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "documentation": "https://docs.python.org/3.11/library/time.html#time.perf_counter"
+}

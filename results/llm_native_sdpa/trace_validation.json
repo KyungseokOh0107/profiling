@@ -1,0 +1,332 @@
+[
+  {
+    "trace": "profile_long_2048.pt.trace.json",
+    "categories": {
+      "user_annotation": 48,
+      "cpu_op": 158594,
+      "kernel": 38396,
+      "ac2g": 80281,
+      "cuda_runtime": 41677,
+      "gpu_memset": 160,
+      "gpu_memcpy": 48,
+      "overhead": 10,
+      "gpu_user_annotation": 24,
+      "": 11,
+      "Trace": 1
+    },
+    "kernel_count": 38396,
+    "sections": [
+      {
+        "name": "A.decode.offset=128.output=14",
+        "trace_start_us": 2786499695581.466,
+        "cpu_wall_ms": 60.6813,
+        "overlapping_kernel_sum_ms": 14.40193017578125
+      },
+      {
+        "name": "A.decode.offset=128.output=15",
+        "trace_start_us": 2786499756377.566,
+        "cpu_wall_ms": 62.7588,
+        "overlapping_kernel_sum_ms": 14.529005859375
+      },
+      {
+        "name": "A.decode.offset=128.output=16",
+        "trace_start_us": 2786499819259.166,
+        "cpu_wall_ms": 60.9006,
+        "overlapping_kernel_sum_ms": 13.90648291015625
+      },
+      {
+        "name": "A.decode.offset=128.output=17",
+        "trace_start_us": 2786499880284.966,
+        "cpu_wall_ms": 62.0562,
+        "overlapping_kernel_sum_ms": 13.7223876953125
+      },
+      {
+        "name": "B.prefill.offset=0.output=0",
+        "trace_start_us": 2786499942468.766,
+        "cpu_wall_ms": 603.1775,
+        "overlapping_kernel_sum_ms": 595.0037861328125
+      },
+      {
+        "name": "A.decode.offset=128.output=18",
+        "trace_start_us": 2786500545773.866,
+        "cpu_wall_ms": 62.1111,
+        "overlapping_kernel_sum_ms": 13.7136201171875
+      },
+      {
+        "name": "B.decode.offset=2048.output=1",
+        "trace_start_us": 2786500608025.566,
+        "cpu_wall_ms": 62.693,
+        "overlapping_kernel_sum_ms": 24.5801689453125
+      },
+      {
+        "name": "A.decode.offset=128.output=19",
+        "trace_start_us": 2786500670864.466,
+        "cpu_wall_ms": 61.889900000000004,
+        "overlapping_kernel_sum_ms": 13.70895849609375
+      },
+      {
+        "name": "B.decode.offset=2048.output=2",
+        "trace_start_us": 2786500732965.666,
+        "cpu_wall_ms": 64.0085,
+        "overlapping_kernel_sum_ms": 23.24740576171875
+      },
+      {
+        "name": "A.decode.offset=128.output=20",
+        "trace_start_us": 2786500797164.866,
+        "cpu_wall_ms": 61.088300000000004,
+        "overlapping_kernel_sum_ms": 13.69087353515625
+      },
+      {
+        "name": "B.decode.offset=2048.output=3",
+        "trace_start_us": 2786500858401.966,
+        "cpu_wall_ms": 62.4703,
+        "overlapping_kernel_sum_ms": 23.69194189453125
+      },
+      {
+        "name": "A.decode.offset=128.output=21",
+        "trace_start_us": 2786500920990.866,
+        "cpu_wall_ms": 60.871199999999995,
+        "overlapping_kernel_sum_ms": 13.7394111328125
+      },
+      {
+        "name": "B.decode.offset=2048.output=4",
+        "trace_start_us": 2786500981965.166,
+        "cpu_wall_ms": 61.372099999999996,
+        "overlapping_kernel_sum_ms": 24.20956884765625
+      },
+      {
+        "name": "A.decode.offset=128.output=22",
+        "trace_start_us": 2786501043457.166,
+        "cpu_wall_ms": 62.2323,
+        "overlapping_kernel_sum_ms": 14.20622265625
+      },
+      {
+        "name": "B.decode.offset=2048.output=5",
+        "trace_start_us": 2786501105801.966,
+        "cpu_wall_ms": 62.1772,
+        "overlapping_kernel_sum_ms": 25.7985927734375
+      },
+      {
+        "name": "A.decode.offset=128.output=23",
+        "trace_start_us": 2786501168140.266,
+        "cpu_wall_ms": 62.4942,
+        "overlapping_kernel_sum_ms": 13.74601123046875
+      },
+      {
+        "name": "B.decode.offset=2048.output=6",
+        "trace_start_us": 2786501230812.266,
+        "cpu_wall_ms": 61.6006,
+        "overlapping_kernel_sum_ms": 24.514474609375
+      },
+      {
+        "name": "A.decode.offset=128.output=24",
+        "trace_start_us": 2786501292605.166,
+        "cpu_wall_ms": 61.287699999999994,
+        "overlapping_kernel_sum_ms": 13.9976064453125
+      },
+      {
+        "name": "B.decode.offset=2048.output=7",
+        "trace_start_us": 2786501354046.466,
+        "cpu_wall_ms": 62.4934,
+        "overlapping_kernel_sum_ms": 24.35568408203125
+      },
+      {
+        "name": "A.decode.offset=128.output=25",
+        "trace_start_us": 2786501416703.566,
+        "cpu_wall_ms": 61.4867,
+        "overlapping_kernel_sum_ms": 13.76553564453125
+      },
+      {
+        "name": "B.decode.offset=2048.output=8",
+        "trace_start_us": 2786501478329.466,
+        "cpu_wall_ms": 62.360800000000005,
+        "overlapping_kernel_sum_ms": 24.34737060546875
+      },
+      {
+        "name": "A.decode.offset=128.output=26",
+        "trace_start_us": 2786501540838.966,
+        "cpu_wall_ms": 62.6265,
+        "overlapping_kernel_sum_ms": 15.3270322265625
+      },
+      {
+        "name": "B.decode.offset=2048.output=9",
+        "trace_start_us": 2786501603577.166,
+        "cpu_wall_ms": 61.004400000000004,
+        "overlapping_kernel_sum_ms": 23.73770556640625
+      },
+      {
+        "name": "A.decode.offset=128.output=27",
+        "trace_start_us": 2786501664696.966,
+        "cpu_wall_ms": 62.3369,
+        "overlapping_kernel_sum_ms": 14.5422041015625
+      }
+    ],
+    "limitations": "Profile runs include instrumentation/export overhead; not performance samples. Kernel sums are activity inside synchronized forward markers, not bandwidth/occupancy measurements.",
+    "runtime_warning": "External init callback must run in same thread as registerClient was emitted; CUDA kernel events and A/B markers were independently verified."
+  },
+  {
+    "trace": "profile_long_256.pt.trace.json",
+    "categories": {
+      "user_annotation": 48,
+      "cpu_op": 162502,
+      "kernel": 38837,
+      "ac2g": 83039,
+      "cuda_runtime": 43896,
+      "gpu_memset": 265,
+      "gpu_memcpy": 41,
+      "overhead": 11,
+      "gpu_user_annotation": 24,
+      "": 9,
+      "Trace": 1
+    },
+    "kernel_count": 38837,
+    "sections": [
+      {
+        "name": "A.decode.offset=128.output=14",
+        "trace_start_us": 2786447164678.374,
+        "cpu_wall_ms": 62.3128,
+        "overlapping_kernel_sum_ms": 13.6982578125
+      },
+      {
+        "name": "A.decode.offset=128.output=15",
+        "trace_start_us": 2786447227202.674,
+        "cpu_wall_ms": 60.578199999999995,
+        "overlapping_kernel_sum_ms": 13.9263125
+      },
+      {
+        "name": "A.decode.offset=128.output=16",
+        "trace_start_us": 2786447288071.774,
+        "cpu_wall_ms": 61.8735,
+        "overlapping_kernel_sum_ms": 14.54423828125
+      },
+      {
+        "name": "B.prefill.offset=0.output=0",
+        "trace_start_us": 2786447350193.074,
+        "cpu_wall_ms": 68.6828,
+        "overlapping_kernel_sum_ms": 48.69084228515625
+      },
+      {
+        "name": "A.decode.offset=128.output=17",
+        "trace_start_us": 2786447418979.274,
+        "cpu_wall_ms": 60.618900000000004,
+        "overlapping_kernel_sum_ms": 14.4038193359375
+      },
+      {
+        "name": "B.prefill.offset=256.output=0",
+        "trace_start_us": 2786447479757.174,
+        "cpu_wall_ms": 66.8549,
+        "overlapping_kernel_sum_ms": 54.754736328125
+      },
+      {
+        "name": "A.decode.offset=128.output=18",
+        "trace_start_us": 2786447546702.474,
+        "cpu_wall_ms": 64.0955,
+        "overlapping_kernel_sum_ms": 13.7340244140625
+      },
+      {
+        "name": "B.prefill.offset=512.output=0",
+        "trace_start_us": 2786447610935.674,
+        "cpu_wall_ms": 69.316,
+        "overlapping_kernel_sum_ms": 60.17418798828125
+      },
+      {
+        "name": "A.decode.offset=128.output=19",
+        "trace_start_us": 2786447680342.274,
+        "cpu_wall_ms": 61.1006,
+        "overlapping_kernel_sum_ms": 14.03938818359375
+      },
+      {
+        "name": "B.prefill.offset=768.output=0",
+        "trace_start_us": 2786447741602.874,
+        "cpu_wall_ms": 72.4425,
+        "overlapping_kernel_sum_ms": 64.48551220703125
+      },
+      {
+        "name": "A.decode.offset=128.output=20",
+        "trace_start_us": 2786447814135.574,
+        "cpu_wall_ms": 61.336,
+        "overlapping_kernel_sum_ms": 14.44735205078125
+      },
+      {
+        "name": "B.prefill.offset=1024.output=0",
+        "trace_start_us": 2786447875598.774,
+        "cpu_wall_ms": 78.7488,
+        "overlapping_kernel_sum_ms": 69.467927734375
+      },
+      {
+        "name": "A.decode.offset=128.output=21",
+        "trace_start_us": 2786447954446.874,
+        "cpu_wall_ms": 64.1613,
+        "overlapping_kernel_sum_ms": 14.05372998046875
+      },
+      {
+        "name": "B.prefill.offset=1280.output=0",
+        "trace_start_us": 2786448018800.374,
+        "cpu_wall_ms": 86.494,
+        "overlapping_kernel_sum_ms": 77.2568662109375
+      },
+      {
+        "name": "A.decode.offset=128.output=22",
+        "trace_start_us": 2786448105398.774,
+        "cpu_wall_ms": 63.3958,
+        "overlapping_kernel_sum_ms": 16.102994140625
+      },
+      {
+        "name": "B.prefill.offset=1536.output=0",
+        "trace_start_us": 2786448168934.674,
+        "cpu_wall_ms": 90.099,
+        "overlapping_kernel_sum_ms": 82.09600634765626
+      },
+      {
+        "name": "A.decode.offset=128.output=23",
+        "trace_start_us": 2786448259137.574,
+        "cpu_wall_ms": 60.615199999999994,
+        "overlapping_kernel_sum_ms": 13.94358251953125
+      },
+      {
+        "name": "B.prefill.offset=1792.output=0",
+        "trace_start_us": 2786448319889.374,
+        "cpu_wall_ms": 97.7013,
+        "overlapping_kernel_sum_ms": 88.66915673828125
+      },
+      {
+        "name": "A.decode.offset=128.output=24",
+        "trace_start_us": 2786448417719.974,
+        "cpu_wall_ms": 61.254599999999996,
+        "overlapping_kernel_sum_ms": 13.748826171875
+      },
+      {
+        "name": "B.decode.offset=2048.output=1",
+        "trace_start_us": 2786448479077.074,
+        "cpu_wall_ms": 62.0694,
+        "overlapping_kernel_sum_ms": 24.342158203125
+      },
+      {
+        "name": "A.decode.offset=128.output=25",
+        "trace_start_us": 2786448541332.974,
+        "cpu_wall_ms": 60.9486,
+        "overlapping_kernel_sum_ms": 13.8393642578125
+      },
+      {
+        "name": "B.decode.offset=2048.output=2",
+        "trace_start_us": 2786448602387.374,
+        "cpu_wall_ms": 61.7756,
+        "overlapping_kernel_sum_ms": 23.32240576171875
+      },
+      {
+        "name": "A.decode.offset=128.output=26",
+        "trace_start_us": 2786448664321.174,
+        "cpu_wall_ms": 63.0657,
+        "overlapping_kernel_sum_ms": 14.29096142578125
+      },
+      {
+        "name": "B.decode.offset=2048.output=3",
+        "trace_start_us": 2786448727490.674,
+        "cpu_wall_ms": 60.275,
+        "overlapping_kernel_sum_ms": 24.06835986328125
+      }
+    ],
+    "limitations": "Profile runs include instrumentation/export overhead; not performance samples. Kernel sums are activity inside synchronized forward markers, not bandwidth/occupancy measurements.",
+    "runtime_warning": "External init callback must run in same thread as registerClient was emitted; CUDA kernel events and A/B markers were independently verified."
+  }
+]

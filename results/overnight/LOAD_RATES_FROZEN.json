@@ -1,0 +1,91 @@
+{
+  "frozen_at": "2026-11-03T04:02:57.355246+09:00",
+  "rates": [
+    0.08,
+    0.24
+  ],
+  "quiet_pilot": {
+    "run_id": "load_r0_rate0.08_chunk512",
+    "phase": "pilot",
+    "rate": 0.08,
+    "chunk": 512,
+    "repeat": 0,
+    "warmup": false,
+    "backend": "efficient",
+    "requests": 10,
+    "completed": 10,
+    "errors": 0,
+    "elapsed_s": 131.8334348,
+    "output_tokens_s": 19.418442702973557,
+    "good_requests": 10,
+    "goodput_req_s": 0.07585329180849046,
+    "peak_allocated_mib": 3082.01171875,
+    "max_pending": 1,
+    "max_pending_at_capacity": 0,
+    "max_admission_wait_ms": 35.235,
+    "max_client_send_lag_ms": 1.148801,
+    "max_active": 3,
+    "short": {
+      "n": 8,
+      "ttft_median_ms": 220.5655,
+      "gap_max_median_ms": 86.3467,
+      "ttft_max_ms": 384.3054
+    },
+    "long": {
+      "n": 2,
+      "ttft_median_ms": 497.9616,
+      "gap_max_median_ms": 53.7438,
+      "ttft_max_ms": 518.4315
+    }
+  },
+  "busy_pilot": {
+    "run_id": "load_r0_rate0.24_chunk512",
+    "phase": "pilot",
+    "rate": 0.24,
+    "chunk": 512,
+    "repeat": 0,
+    "warmup": false,
+    "backend": "efficient",
+    "requests": 20,
+    "completed": 20,
+    "errors": 0,
+    "elapsed_s": 183.1931485,
+    "output_tokens_s": 27.94864350508174,
+    "good_requests": 3,
+    "goodput_req_s": 0.016376158303758832,
+    "peak_allocated_mib": 3340.3271484375,
+    "max_pending": 8,
+    "max_pending_at_capacity": 8,
+    "max_admission_wait_ms": 66138.4663,
+    "max_client_send_lag_ms": 1.482334,
+    "max_active": 8,
+    "short": {
+      "n": 16,
+      "ttft_median_ms": 13073.909,
+      "gap_max_median_ms": 333.6658,
+      "ttft_max_ms": 66477.5587
+    },
+    "long": {
+      "n": 4,
+      "ttft_median_ms": 1767.6543000000001,
+      "gap_max_median_ms": 354.17625,
+      "ttft_max_ms": 37177.6598
+    }
+  },
+  "interpretation": "0.24 is a finite overloaded arrival burst, not a stable infinite-horizon load",
+  "main_trials": {
+    "requests": 50,
+    "repeats": 2,
+    "chunks": [
+      256,
+      512,
+      2048
+    ],
+    "max_seqs": 8
+  },
+  "synthetic_slo": {
+    "short_scheduled_ttft_ms": 2000,
+    "long_scheduled_ttft_ms": 4000,
+    "max_gap_ms": 350
+  }
+}

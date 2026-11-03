@@ -1,0 +1,242 @@
+[
+  {
+    "run_id": "pair_r0_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_math_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_math_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_math_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_math_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_math_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_math_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_math_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_math_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_math_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_math_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_math_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_math_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_math_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_math_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_math_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r5_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r5_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r5_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r5_math_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r5_math_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r5_math_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r6_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r6_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r6_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r6_math_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r6_math_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r6_math_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r7_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r7_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r7_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r7_math_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r7_math_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r7_math_512",
+    "successful": 2,
+    "errors": 0
+  }
+]

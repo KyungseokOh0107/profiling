@@ -1,0 +1,84 @@
+{
+  "0.24": [
+    {
+      "offset_s": 0.0,
+      "kind": "short"
+    },
+    {
+      "offset_s": 1.0929760392184784,
+      "kind": "short"
+    },
+    {
+      "offset_s": 3.1860356956135045,
+      "kind": "short"
+    },
+    {
+      "offset_s": 10.690246939809601,
+      "kind": "short"
+    },
+    {
+      "offset_s": 18.879547853958265,
+      "kind": "short"
+    },
+    {
+      "offset_s": 20.72666582535606,
+      "kind": "short"
+    },
+    {
+      "offset_s": 22.100387760434774,
+      "kind": "short"
+    },
+    {
+      "offset_s": 32.72735610261549,
+      "kind": "long"
+    },
+    {
+      "offset_s": 33.92957597705558,
+      "kind": "long"
+    },
+    {
+      "offset_s": 45.30700412960758,
+      "kind": "long"
+    },
+    {
+      "offset_s": 48.84894808664552,
+      "kind": "short"
+    },
+    {
+      "offset_s": 49.84273155974695,
+      "kind": "short"
+    },
+    {
+      "offset_s": 53.42475300809153,
+      "kind": "long"
+    },
+    {
+      "offset_s": 55.47039775289092,
+      "kind": "short"
+    },
+    {
+      "offset_s": 60.88118118707247,
+      "kind": "short"
+    },
+    {
+      "offset_s": 65.86150555481449,
+      "kind": "short"
+    },
+    {
+      "offset_s": 68.4378328942303,
+      "kind": "short"
+    },
+    {
+      "offset_s": 74.41397836767199,
+      "kind": "short"
+    },
+    {
+      "offset_s": 77.3761841780192,
+      "kind": "short"
+    },
+    {
+      "offset_s": 79.16666666666667,
+      "kind": "short"
+    }
+  ]
+}

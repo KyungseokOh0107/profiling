@@ -1,0 +1,104 @@
+[
+  {
+    "run_id": "load_r0_rate0.08_chunk512",
+    "phase": "pilot",
+    "rate": 0.08,
+    "chunk": 512,
+    "repeat": 0,
+    "warmup": false,
+    "backend": "efficient",
+    "requests": 10,
+    "completed": 10,
+    "errors": 0,
+    "elapsed_s": 131.8334348,
+    "output_tokens_s": 19.418442702973557,
+    "good_requests": 10,
+    "goodput_req_s": 0.07585329180849046,
+    "peak_allocated_mib": 3082.01171875,
+    "max_pending": 1,
+    "max_pending_at_capacity": 0,
+    "max_admission_wait_ms": 35.235,
+    "max_client_send_lag_ms": 1.148801,
+    "max_active": 3,
+    "short": {
+      "n": 8,
+      "ttft_median_ms": 220.5655,
+      "gap_max_median_ms": 86.3467,
+      "ttft_max_ms": 384.3054
+    },
+    "long": {
+      "n": 2,
+      "ttft_median_ms": 497.9616,
+      "gap_max_median_ms": 53.7438,
+      "ttft_max_ms": 518.4315
+    }
+  },
+  {
+    "run_id": "load_r0_rate0.16_chunk512",
+    "phase": "pilot",
+    "rate": 0.16,
+    "chunk": 512,
+    "repeat": 0,
+    "warmup": false,
+    "backend": "efficient",
+    "requests": 10,
+    "completed": 10,
+    "errors": 0,
+    "elapsed_s": 89.2685111,
+    "output_tokens_s": 28.677525461719053,
+    "good_requests": 10,
+    "goodput_req_s": 0.11202158383484005,
+    "peak_allocated_mib": 3101.751953125,
+    "max_pending": 1,
+    "max_pending_at_capacity": 0,
+    "max_admission_wait_ms": 89.4159,
+    "max_client_send_lag_ms": 1.272482,
+    "max_active": 6,
+    "short": {
+      "n": 8,
+      "ttft_median_ms": 151.791,
+      "gap_max_median_ms": 199.84325,
+      "ttft_max_ms": 293.0821
+    },
+    "long": {
+      "n": 2,
+      "ttft_median_ms": 635.9367,
+      "gap_max_median_ms": 144.1174,
+      "ttft_max_ms": 756.4183
+    }
+  },
+  {
+    "run_id": "load_r0_rate0.24_chunk512",
+    "phase": "pilot",
+    "rate": 0.24,
+    "chunk": 512,
+    "repeat": 0,
+    "warmup": false,
+    "backend": "efficient",
+    "requests": 10,
+    "completed": 10,
+    "errors": 0,
+    "elapsed_s": 89.9924243,
+    "output_tokens_s": 28.44683894130853,
+    "good_requests": 10,
+    "goodput_req_s": 0.11112046461448645,
+    "peak_allocated_mib": 3190.298828125,
+    "max_pending": 1,
+    "max_pending_at_capacity": 0,
+    "max_admission_wait_ms": 175.1082,
+    "max_client_send_lag_ms": 1.492067,
+    "max_active": 8,
+    "short": {
+      "n": 8,
+      "ttft_median_ms": 246.35320000000002,
+      "gap_max_median_ms": 326.50075000000004,
+      "ttft_max_ms": 419.5188
+    },
+    "long": {
+      "n": 2,
+      "ttft_median_ms": 847.9685,
+      "gap_max_median_ms": 292.00845000000004,
+      "ttft_max_ms": 1124.3372
+    }
+  }
+]

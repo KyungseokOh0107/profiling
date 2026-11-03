@@ -1,0 +1,70 @@
+{
+  "deadline": "2026-11-03T07:00:00+09:00",
+  "jobs": [
+    {
+      "name": "http_load_pilot_extended",
+      "started": "2026-11-03T03:59:24.129640+09:00",
+      "log": "results\\overnight\\http_load_pilot_extended.log",
+      "pid": 13668,
+      "log_bytes": 904,
+      "returncode": 0,
+      "finished": "2026-11-03T04:02:57.275492+09:00"
+    },
+    {
+      "name": "freeze_load_rates",
+      "started": "2026-11-03T04:02:57.276500+09:00",
+      "log": "results\\overnight\\freeze_load_rates.log",
+      "pid": 17208,
+      "log_bytes": 0,
+      "returncode": 0,
+      "finished": "2026-11-03T04:02:58.291095+09:00"
+    },
+    {
+      "name": "http_mixed_load",
+      "started": "2026-11-03T04:02:58.296075+09:00",
+      "log": "results\\overnight\\http_mixed_load.log",
+      "pid": 35036,
+      "log_bytes": 96479,
+      "returncode": 0,
+      "finished": "2026-11-03T05:53:42.085490+09:00"
+    },
+    {
+      "name": "backend_probe_v2",
+      "started": "2026-11-03T05:53:42.087481+09:00",
+      "log": "results\\overnight\\backend_probe_v2.log",
+      "pid": 10100,
+      "log_bytes": 0,
+      "returncode": 0,
+      "finished": "2026-11-03T05:53:56.109214+09:00"
+    },
+    {
+      "name": "backend_crossover",
+      "started": "2026-11-03T05:53:56.111114+09:00",
+      "log": "results\\overnight\\backend_crossover.log",
+      "pid": 2980,
+      "log_bytes": 40155,
+      "returncode": 0,
+      "finished": "2026-11-03T06:11:48.873528+09:00"
+    },
+    {
+      "name": "static_batch_fp16",
+      "started": "2026-11-03T06:11:48.875535+09:00",
+      "log": "results\\overnight\\static_batch_fp16.log",
+      "pid": 33068,
+      "log_bytes": 23679,
+      "returncode": 0,
+      "finished": "2026-11-03T06:19:18.264216+09:00"
+    },
+    {
+      "name": "chat_pairs",
+      "started": "2026-11-03T06:19:18.266209+09:00",
+      "log": "results\\overnight\\chat_pairs.log",
+      "pid": 30464,
+      "log_bytes": 12475,
+      "returncode": 0,
+      "finished": "2026-11-03T06:24:53.486985+09:00"
+    }
+  ],
+  "running": null,
+  "updated": "2026-11-03T06:24:53.486985+09:00"
+}

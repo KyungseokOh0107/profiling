@@ -1,0 +1,142 @@
+[
+  {
+    "run_id": "load_r0_cap2",
+    "phase": "load",
+    "rate": 0.24,
+    "chunk": 512,
+    "backend": "efficient",
+    "max_seqs": 2,
+    "repeat": 0,
+    "warmup": false,
+    "requests": 20,
+    "completed": 20,
+    "errors": 0,
+    "elapsed_s": 177.727683,
+    "output_tokens_s": 28.808117641414363,
+    "good_requests": 2,
+    "goodput_req_s": 0.011253170953677486,
+    "peak_allocated_mib": 3075.369140625,
+    "max_pending": 10,
+    "max_pending_at_capacity": 10,
+    "max_admission_wait_ms": 82946.8453,
+    "max_client_send_lag_ms": 1.641159,
+    "max_active": 2,
+    "short": {
+      "n": 16,
+      "ttft_median_ms": 47084.165850000005,
+      "gap_max_median_ms": 82.53795,
+      "ttft_max_ms": 83041.3663
+    },
+    "long": {
+      "n": 4,
+      "ttft_median_ms": 59039.8616,
+      "gap_max_median_ms": 82.72035,
+      "ttft_max_ms": 81818.452
+    }
+  },
+  {
+    "run_id": "load_r0_cap8",
+    "phase": "load",
+    "rate": 0.24,
+    "chunk": 512,
+    "backend": "efficient",
+    "max_seqs": 8,
+    "repeat": 0,
+    "warmup": false,
+    "requests": 20,
+    "completed": 20,
+    "errors": 0,
+    "elapsed_s": 176.6751039,
+    "output_tokens_s": 28.979748062850863,
+    "good_requests": 8,
+    "goodput_req_s": 0.045280856348204473,
+    "peak_allocated_mib": 3213.1708984375,
+    "max_pending": 7,
+    "max_pending_at_capacity": 7,
+    "max_admission_wait_ms": 61987.9731,
+    "max_client_send_lag_ms": 1.590197,
+    "max_active": 8,
+    "short": {
+      "n": 16,
+      "ttft_median_ms": 21030.988899999997,
+      "gap_max_median_ms": 325.4392,
+      "ttft_max_ms": 60862.6396
+    },
+    "long": {
+      "n": 4,
+      "ttft_median_ms": 38006.4355,
+      "gap_max_median_ms": 324.9522,
+      "ttft_max_ms": 63244.5442
+    }
+  },
+  {
+    "run_id": "load_r1_cap8",
+    "phase": "load",
+    "rate": 0.24,
+    "chunk": 512,
+    "backend": "efficient",
+    "max_seqs": 8,
+    "repeat": 1,
+    "warmup": false,
+    "requests": 20,
+    "completed": 20,
+    "errors": 0,
+    "elapsed_s": 178.7919597,
+    "output_tokens_s": 28.636634491791412,
+    "good_requests": 4,
+    "goodput_req_s": 0.022372370696712038,
+    "peak_allocated_mib": 3270.91796875,
+    "max_pending": 8,
+    "max_pending_at_capacity": 8,
+    "max_admission_wait_ms": 59106.6352,
+    "max_client_send_lag_ms": 1.536234,
+    "max_active": 8,
+    "short": {
+      "n": 16,
+      "ttft_median_ms": 32684.7158,
+      "gap_max_median_ms": 328.11405,
+      "ttft_max_ms": 59442.9196
+    },
+    "long": {
+      "n": 4,
+      "ttft_median_ms": 15864.6272,
+      "gap_max_median_ms": 330.25464999999997,
+      "ttft_max_ms": 40448.619
+    }
+  },
+  {
+    "run_id": "load_r1_cap2",
+    "phase": "load",
+    "rate": 0.24,
+    "chunk": 512,
+    "backend": "efficient",
+    "max_seqs": 2,
+    "repeat": 1,
+    "warmup": false,
+    "requests": 20,
+    "completed": 20,
+    "errors": 0,
+    "elapsed_s": 178.0770709,
+    "output_tokens_s": 28.75159600348076,
+    "good_requests": 2,
+    "goodput_req_s": 0.011231092188859673,
+    "peak_allocated_mib": 3074.900390625,
+    "max_pending": 10,
+    "max_pending_at_capacity": 10,
+    "max_admission_wait_ms": 84099.9279,
+    "max_client_send_lag_ms": 1.44784,
+    "max_active": 2,
+    "short": {
+      "n": 16,
+      "ttft_median_ms": 58200.1357,
+      "gap_max_median_ms": 82.8768,
+      "ttft_max_ms": 84175.5349
+    },
+    "long": {
+      "n": 4,
+      "ttft_median_ms": 40326.555,
+      "gap_max_median_ms": 81.72095,
+      "ttft_max_ms": 59991.7597
+    }
+  }
+]

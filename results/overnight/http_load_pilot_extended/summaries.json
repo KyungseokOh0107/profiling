@@ -1,0 +1,36 @@
+[
+  {
+    "run_id": "load_r0_rate0.24_chunk512",
+    "phase": "pilot",
+    "rate": 0.24,
+    "chunk": 512,
+    "repeat": 0,
+    "warmup": false,
+    "backend": "efficient",
+    "requests": 20,
+    "completed": 20,
+    "errors": 0,
+    "elapsed_s": 183.1931485,
+    "output_tokens_s": 27.94864350508174,
+    "good_requests": 3,
+    "goodput_req_s": 0.016376158303758832,
+    "peak_allocated_mib": 3340.3271484375,
+    "max_pending": 8,
+    "max_pending_at_capacity": 8,
+    "max_admission_wait_ms": 66138.4663,
+    "max_client_send_lag_ms": 1.482334,
+    "max_active": 8,
+    "short": {
+      "n": 16,
+      "ttft_median_ms": 13073.909,
+      "gap_max_median_ms": 333.6658,
+      "ttft_max_ms": 66477.5587
+    },
+    "long": {
+      "n": 4,
+      "ttft_median_ms": 1767.6543000000001,
+      "gap_max_median_ms": 354.17625,
+      "ttft_max_ms": 37177.6598
+    }
+  }
+]

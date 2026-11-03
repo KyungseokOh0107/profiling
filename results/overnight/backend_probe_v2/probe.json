@@ -1,0 +1,355 @@
+{
+  "torch": "2.7.0+cu118",
+  "flash_compiled": false,
+  "bf16_supported": true,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "unmodified_eager_fp16_finite": false,
+  "prescale_eager_fp16_finite": true,
+  "eager_layer_diagnostics": [
+    {
+      "layer": 0,
+      "query_finite": true,
+      "key_finite": true,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": true,
+      "qk_fp32_max_abs": 264172.53125,
+      "scaled_fp32_max_abs": 23349.7734375,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 1,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 2,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 3,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 4,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 5,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 6,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 7,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 8,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 9,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 10,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 11,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 12,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 13,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 14,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 15,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 16,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 17,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 18,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 19,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 20,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 21,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 22,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 23,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 24,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 25,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 26,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    },
+    {
+      "layer": 27,
+      "query_finite": false,
+      "key_finite": false,
+      "qk_fp16_finite": false,
+      "qk_fp32_finite": false,
+      "qk_fp32_max_abs": null,
+      "scaled_fp32_max_abs": null,
+      "fp16_limit": 65504.0
+    }
+  ],
+  "fp32_qk_eager_finite": true,
+  "repaired_eager_vs_math_max_abs": 0.02734375,
+  "prescale_eager_vs_math_max_abs": 0.03515625,
+  "backends": [
+    {
+      "backend": "math",
+      "input_tokens": 128,
+      "finite": true,
+      "first_token": 1393,
+      "warnings": [],
+      "warm_forward_ms": [
+        39.833099996030796,
+        39.45419999945443,
+        39.840199999161996
+      ]
+    },
+    {
+      "backend": "math",
+      "input_tokens": 2048,
+      "finite": true,
+      "first_token": 7460,
+      "warnings": [],
+      "warm_forward_ms": [
+        550.418400001945,
+        556.7946000010124,
+        556.0422999988077
+      ]
+    },
+    {
+      "backend": "efficient",
+      "input_tokens": 128,
+      "finite": true,
+      "first_token": 1393,
+      "warnings": [],
+      "warm_forward_ms": [
+        32.061999998404644,
+        32.30469999834895,
+        35.838499999954365
+      ]
+    },
+    {
+      "backend": "efficient",
+      "input_tokens": 2048,
+      "finite": true,
+      "first_token": 7460,
+      "warnings": [],
+      "warm_forward_ms": [
+        293.5710999954608,
+        294.72309999982826,
+        295.67210000095656
+      ]
+    },
+    {
+      "backend": "flash",
+      "input_tokens": 128,
+      "error": "RuntimeError('No available kernel. Aborting execution.')"
+    },
+    {
+      "backend": "flash",
+      "input_tokens": 2048,
+      "error": "RuntimeError('No available kernel. Aborting execution.')"
+    }
+  ],
+  "bf16_eager_finite": true
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "run_id": "pair_r0_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r0_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r1_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r2_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r3_efficient_512",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_efficient_2048",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_efficient_256",
+    "successful": 2,
+    "errors": 0
+  },
+  {
+    "run_id": "pair_r4_efficient_512",
+    "successful": 2,
+    "errors": 0
+  }
+]

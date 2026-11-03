@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "prompt_style": "chat",
+  "repeats": 5,
+  "source_sha256": "360a85cbc7d98b51262b642a3ff886080dd55fb58032bb97306cd3d95a9e34d8",
+  "created": "2026-11-03T06:19:26.478504+09:00",
+  "dtype": "FP16",
+  "order_seed": 442,
+  "design": "math/efficient crossed with 256/512/2048; fixed backend efficient only for chat family"
+}

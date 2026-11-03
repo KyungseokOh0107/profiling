@@ -1,0 +1,6 @@
+{
+  "completed_job": "http_pairs_math",
+  "failure": "Supervisor status temp-file replacement failed with WinError 5 during efficient backend startup",
+  "action": "Owned child was terminated by supervisor finally; no efficient trials were recorded. Added bounded retry and non-fatal status-write handling, then resumed only remaining jobs.",
+  "experiment_data_lost": false
+}

@@ -1,0 +1,35 @@
+{
+  "deadline_kst": "2026-11-03T07:00:00+09:00",
+  "questions": [
+    "Why did eager FP16 produce NaN? Can attention score overflow be isolated?",
+    "Does queue-based interference reproduce over actual HTTP SSE?",
+    "Does an available efficient SDPA backend change the chunk-size tradeoff?",
+    "Under 80:20 fixed open-loop traffic, how do admission queueing, TTFT and token gaps affect goodput?",
+    "How do batching and CPU dispatch settings affect single-GPU inference?"
+  ],
+  "controls": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "weights_dtype": "FP16 except separately-labelled BF16 numerical probe",
+    "output_tokens": 256,
+    "prefix_cache": false,
+    "speculative_decoding": false,
+    "seed": 42,
+    "gpu_experiments": "strictly sequential"
+  },
+  "load_precommit": {
+    "short_fraction": 0.8,
+    "short_input": 128,
+    "long_input": 2048,
+    "requests_per_trial": 50,
+    "repeats": 2,
+    "chunk_candidates": [256, 512, 2048],
+    "max_num_seqs": 8,
+    "synthetic_slo": {"short_scheduled_ttft_ms": 2000, "long_scheduled_ttft_ms": 4000, "request_max_gap_ms": 350},
+    "goodput_denominator": "first scheduled arrival through final completion/timeout including drain",
+    "rates": "choose from pilot before main load trials, then freeze across chunks",
+    "trace": "same fixed 80:20 types and seeded normalized exponential interarrival record across settings",
+    "reporting": "median, p95 with sample counts and request-level plots; do not conclude from p99"
+  },
+  "limitations": ["Native custom sequential GPU scheduler; no vLLM", "Windows WDDM desktop GPU", "Synthetic repeated-text inputs", "No production SLA claimed"]
+}

@@ -1,0 +1,59 @@
+{
+  "output": "results\\overnight\\http_pairs_math",
+  "backend": "math",
+  "phase": "pairs",
+  "repeats": 5,
+  "count": 50,
+  "rates": [
+    0.07,
+    0.14
+  ],
+  "chunks": [
+    256,
+    512,
+    2048
+  ],
+  "max_seqs": 8,
+  "deadline": "2026-11-03T07:00:00+09:00",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "torch": "2.7.0+cu118",
+  "cuda_runtime": "11.8",
+  "transformers": "4.51.3",
+  "implementation_sha256": "a52590940765f2a268ce7cf6cbba10fdab7ace46b0d09ffb17b7cb5316698bf9",
+  "dtype": "FP16",
+  "created": "2026-11-03T03:34:21.407229+09:00",
+  "cache_validation": [
+    {
+      "chunk_tokens": 256,
+      "finite": true,
+      "max_abs_logit_difference": 0.03125,
+      "allclose_atol_0_15_rtol_0_02": true,
+      "first_token_equal": true,
+      "kv_length": 2048
+    },
+    {
+      "chunk_tokens": 512,
+      "finite": true,
+      "max_abs_logit_difference": 0.0283203125,
+      "allclose_atol_0_15_rtol_0_02": true,
+      "first_token_equal": true,
+      "kv_length": 2048
+    }
+  ],
+  "transport": "HTTP/1.1 SSE over loopback",
+  "scheduler": "sequential round-robin, no GPU batching, no vLLM",
+  "output_tokens": 256,
+  "prefix_cache": false,
+  "cuda_graph": false,
+  "synthetic_slo": {
+    "short_ttft_ms": 2000,
+    "long_ttft_ms": 4000,
+    "max_gap_ms": 350
+  },
+  "inputs_sha256": {
+    "A": "fa8793feef88040639843315d8ccabace066fbd0634106158aba0d84889b4dd0",
+    "short": "fa8793feef88040639843315d8ccabace066fbd0634106158aba0d84889b4dd0",
+    "long": "8863c8f03c3bd3f4aa8de9a95c3fdb192e338e23e1a0dd3b822cb1c445b7f5cd"
+  }
+}

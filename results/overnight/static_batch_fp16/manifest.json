@@ -1,0 +1,64 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "dtype": "fp16",
+  "backend": "efficient SDPA only",
+  "configs_batch_threads_input": [
+    [
+      1,
+      4,
+      128
+    ],
+    [
+      2,
+      4,
+      128
+    ],
+    [
+      4,
+      4,
+      128
+    ],
+    [
+      8,
+      4,
+      128
+    ],
+    [
+      1,
+      1,
+      128
+    ],
+    [
+      1,
+      2,
+      128
+    ],
+    [
+      1,
+      8,
+      128
+    ],
+    [
+      1,
+      4,
+      512
+    ],
+    [
+      1,
+      4,
+      1024
+    ],
+    [
+      1,
+      4,
+      2048
+    ]
+  ],
+  "repeats": 5,
+  "output_tokens": 256,
+  "transport": "direct model calls",
+  "created": "2026-11-03T06:11:57.098315+09:00",
+  "ignore_eos": true,
+  "source_sha256": "51c42582d48f969e7a3c493d46b980ba7586ba64ebdf8b132bc1654acd5d6639"
+}

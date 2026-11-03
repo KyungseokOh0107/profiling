@@ -1,0 +1,4 @@
+[
+  {"name": "client_process_crossover", "args": ["benchmark_llm_process.py", "--repeats", "5", "--output", "results/overnight/client_process_crossover"]},
+  {"name": "admission_crossover", "args": ["benchmark_llm_admission.py", "--repeats", "2", "--output", "results/overnight/admission_crossover"]}
+]

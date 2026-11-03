@@ -1,0 +1,49 @@
+{
+  "recorded_utc": "2026-11-02T17:59:50.435617+00:00",
+  "platform": "Windows-10-10.0.18363-SP0",
+  "python": "3.11.18 | packaged by Anaconda, Inc. | (main, Oct 26 2026, 18:13:29) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "C:\\Users\\main\\anaconda3\\envs\\profiling\\python.exe",
+  "packages": {
+    "torch": "2.7.0+cu118",
+    "transformers": null,
+    "vllm": null,
+    "huggingface-hub": null,
+    "httpx": null
+  },
+  "tools": {
+    "nvidia-smi": "C:\\Windows\\system32\\nvidia-smi.EXE",
+    "nsys": null,
+    "ncu": null,
+    "nvcc": null
+  },
+  "nvidia_smi": {
+    "returncode": 0,
+    "stdout": "name, memory.total [MiB], memory.free [MiB], driver_version\nNVIDIA GeForce RTX 3060, 12288 MiB, 11485 MiB, 616.92",
+    "stderr": ""
+  },
+  "llm_inference_executed": false,
+  "vllm_serving_executed": false,
+  "wsl_distributions": [
+    {
+      "name": "Alpine",
+      "version": 1
+    },
+    {
+      "name": "Ubuntu",
+      "version": 1
+    }
+  ],
+  "vllm_blocker": "Official CUDA vLLM requires Linux; this interpreter is Windows.",
+  "gpu_smoke": {
+    "torch": "2.7.0+cu118",
+    "cuda_runtime": "11.8",
+    "cuda_available": true,
+    "name": "NVIDIA GeForce RTX 3060",
+    "capability": [
+      8,
+      6
+    ],
+    "fp16_matmul_correct": true,
+    "cuda_profiler_events": 1
+  }
+}
